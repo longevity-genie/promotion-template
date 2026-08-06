@@ -1,0 +1,14 @@
+# Generated spreadsheet view - build it with scripts/build_workbook.py
+registry/*.xlsx
+~$*.xlsx
+.~lock.*#
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
