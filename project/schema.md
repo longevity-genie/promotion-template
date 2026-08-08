@@ -30,10 +30,10 @@ The registry of communities. The most valuable file here, because the research b
 | `link_target` | `pillar` / `post` / `repo` / `none` — what to link. See `registry/utm_convention.md`. |
 | `admin_contact` | Modmail, admin handle, or email, for rooms where asking first is the right move. |
 | `last_posted` | Updated automatically by prompt `40`. Compared against `cap_days`. |
-| `status` | `active` / `comment-only` / `blocked` / `retired`. Only `active` rooms get selected. |
+| `status` | `active` / `comment-only` / `on-hold` / `retired`. Only `active` rooms get selected. |
 | `notes` | Anything that changes how you post here. Known audience overlaps with other rooms go here. |
 
-**On `status`:** prefer `retired` over deleting a row. A room that's wrong today may suit a later pillar, and the rule research stays useful either way. `comment-only` means participate but never post — the honest state for several science subreddits.
+**On `status`:** prefer `retired` over deleting a row. A room that's wrong today may suit a later pillar, and the rule research stays useful either way. `comment-only` means participate but never post — the honest state for several science subreddits. `on-hold` means you are not ready to post yet — a missing asset, a print photo, an STL file, a pending approval. Put the release condition in `notes`. It is not the same as moderation action; if moderators banned you, note that separately.
 
 ---
 

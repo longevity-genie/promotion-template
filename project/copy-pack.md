@@ -87,6 +87,8 @@ Beyond the hard `forbidden_words` list in `PROJECT.md`, these are stylistic tell
 - "it's not just X, it's Y" — a very recognisable LLM construction
 - Rhetorical question openers ("Ever wondered what would happen if...")
 - Hedging stacks: "it could potentially perhaps"
+- "Leveraging", "harnessing", "unlocking"
+- "At the intersection of" (use "where X meets Y" or just describe what it is)
 - Em dashes, if your project's voice rules specify plain hyphens
 
 ---
@@ -95,8 +97,12 @@ Beyond the hard `forbidden_words` list in `PROJECT.md`, these are stylistic tell
 
 Paste posts that performed well, with a note on where and why. Over a few months this becomes the most valuable section in the file — it's the only record of what actually landed, as opposed to what you assumed would.
 
-### `<Date>` — `<platform>` — outcome: `<what followed>`
+### Template
 
+> **`<Date>`** — **`<platform>`** — outcome: **`<what followed>`**
+>
 > `<the post text>`
+>
+> Why it worked: `<...>`
 
-Why it worked: `<...>`
+(This section fills in as posts are sent and measured. After a few months it becomes the most valuable section in the file — it is the only record of what actually landed, as opposed to what you assumed would.)
