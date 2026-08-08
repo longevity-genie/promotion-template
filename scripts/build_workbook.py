@@ -43,7 +43,7 @@ TIER_FILLS = {
     "2": PatternFill("solid", fgColor="FFF6E5"),
     "3": PatternFill("solid", fgColor="EAF7EE"),
 }
-BLOCKED_FILL = PatternFill("solid", fgColor="E8E8E8")
+INACTIVE_FILL = PatternFill("solid", fgColor="E8E8E8")
 WIDE_COLUMNS = {"self_promo_rule", "notes", "key_rule_to_remember", "full_text",
                 "text_sent", "thesis_one_line", "key_facts_to_include", "link_behaviour"}
 
@@ -84,8 +84,8 @@ def main() -> int:
             # Tint by tier so priority is visible at a glance; grey out anything
             # not currently postable.
             fill = None
-            if "status" in idx and row[idx["status"]] in {"blocked", "comment-only", "retired"}:
-                fill = BLOCKED_FILL
+            if "status" in idx and row[idx["status"]] in {"on-hold", "comment-only", "retired"}:
+                fill = INACTIVE_FILL
             elif "tier" in idx:
                 fill = TIER_FILLS.get(row[idx["tier"]])
             for c in range(1, len(header) + 1):

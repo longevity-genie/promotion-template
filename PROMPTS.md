@@ -23,7 +23,7 @@ Read this repo and report. Do not change anything.
 1. Read project/PROJECT.md. Is it filled in, or does it still have <...> placeholders?
    List anything still unfilled - I cannot draft until those are real.
 2. Read registry/destinations.csv. Break the rooms down by platform and tier. How many are
-   status=active vs blocked/comment-only/retired? Which have measurable=no, so I know where
+   status=active vs on-hold/comment-only/retired? Which have measurable=no, so I know where
    measurement will always be manual?
 3. Which rooms have boost_ok=no-bannable, so I never ask anyone to engage there?
 4. Count files in candidates/pending/ and candidates/approved/ - what is waiting on me?
@@ -220,7 +220,7 @@ move a file into candidates/approved/.
    - One line: what got drafted, and how many files now sit in candidates/pending/.
    - Each candidate, with room, language, platform, and suggested send time.
    - Measurement findings.
-   - Anything blocked, and why.
+   - Anything on-hold, and why.
 5. Close with: "Nothing has been sent, posted, or approved. Everything is in
    candidates/pending/ - move what you want into candidates/approved/ and tell me, and I will
    send those, spaced hours apart rather than all at once."
@@ -248,7 +248,7 @@ Steps:
    pillar, and the rule research stays useful. Report what you retired and why.
 4. Tell me which important room categories are MISSING for this project, so I know what to
    go and vet with prompt 60.
-5. Do not touch scripts/, docs/, or the CSV headers.
+5. Do not touch scripts/ or the CSV headers.
 6. Run scripts/check_registry.py.
 
 Then tell me the three highest-leverage things to do first, given my stated goal order.

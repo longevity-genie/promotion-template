@@ -31,9 +31,12 @@ Run `python scripts/check_registry.py` at any point; it validates ids, catches d
 ## Layout
 
 ```
-├── project/            <- the only folder you must fill in by hand
+├── project/            <- project config and reference docs
 │   ├── PROJECT.md          standing facts, voice rules, forbidden words
-│   └── copy-pack.md        voice model and drafted copy
+│   ├── copy-pack.md        voice model and drafted copy
+│   ├── schema.md           every column in every file, explained
+│   ├── workflow.md         the weekly loop, start to finish
+│   └── promotion-plan.md   strategy and calendar
 ├── registry/           <- the data, as CSV so git can diff it
 │   ├── destinations.csv    communities, with their real rules and caps
 │   ├── platform_rules.csv  per-platform constraints and gotchas
@@ -48,9 +51,17 @@ Run `python scripts/check_registry.py` at any point; it validates ids, catches d
 ├── scripts/
 │   ├── build_workbook.py   CSVs -> one .xlsx, if you prefer a spreadsheet view
 │   └── check_registry.py   validates ids, duplicates, and rule violations
-├── docs/
-│   ├── schema.md           every column in every file, explained
-│   └── workflow.md         the weekly loop, start to finish
+├── drafts/             <- post drafts, organised by platform
+│   ├── long-form/          substantial articles (HN, Habr, The Conversation)
+│   ├── linkedin/           LinkedIn page posts, one file per post
+│   ├── facebook/           Facebook page posts, one file per post
+│   ├── bluesky.md          Bluesky posts
+│   ├── telegram.md         Telegram warm group posts
+│   ├── whatsapp.md         WhatsApp warm group posts
+│   ├── reddit.md           Reddit posts by subreddit
+│   ├── discord.md          Discord showcase posts
+│   ├── press-emails.md     press and curator outreach
+│   └── institutional-emails.md  institutional outreach (RO, DE)
 ├── AGENTS.md           <- read automatically by Codex, Cursor, Claude Code
 └── PROMPTS.md          <- numbered copy-paste prompts, 00 through 90
 ```

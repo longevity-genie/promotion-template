@@ -1,6 +1,6 @@
 # Agent instructions
 
-This repo is a promotion and distribution system for one project. Read `README.md` for the shape, `PROMPTS.md` for the numbered tasks, `docs/schema.md` for every column's meaning.
+This repo is a promotion and distribution system for one project. Read `README.md` for the shape, `PROMPTS.md` for the numbered tasks, `project/schema.md` for every column's meaning.
 
 ## Paths
 
