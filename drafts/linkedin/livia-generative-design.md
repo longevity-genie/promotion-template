@@ -1,3 +1,8 @@
+---
+image: livia-generative-design.png
+image_description: Sculpture render or photograph showing the Voronoi shell geometry. Livia wearing the sculpture is ideal if available
+---
+
 # LinkedIn - Livia: generative design angle
 
 > Standing facts and voice rules: see [PROJECT.md](../../project/PROJECT.md) and [copy-pack.md](../../project/copy-pack.md).

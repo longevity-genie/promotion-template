@@ -1,3 +1,8 @@
+---
+image: anton-evidence-ladder.png
+image_description: Screenshot of a gene page showing the split evidence ratings (mechanism vs intervention), e.g. FOXO3 or Dsup
+---
+
 # LinkedIn - Anton: evidence ladder launch
 
 > Standing facts and voice rules: see [PROJECT.md](../../project/PROJECT.md) and [copy-pack.md](../../project/copy-pack.md).
