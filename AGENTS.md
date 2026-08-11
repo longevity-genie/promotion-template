@@ -28,7 +28,7 @@ The same applies to external identifiers. Discover Google Drive folders by title
 
 Each draft subfolder has a `TODO.md` with image preparation tasks and pre-posting checklist.
 
-- `drafts/linkedin/` — 8 post drafts with `image:` frontmatter specifying which screenshot to prepare
+- `drafts/linkedin/` — channel-specific folders for Anton, Livia, the enhancement.bio showcase page, and Anton's showcase reshare commentary
 - `drafts/long-form/` — Hacker News (write by hand), Habr (Russian + English), The Conversation pitch
 - `drafts/facebook/` — page posts (page creation pending)
 - `drafts/` — single-file drafts for reddit, telegram, bluesky, discord, whatsapp, emails
@@ -60,6 +60,10 @@ Nothing enters `shares.csv` until it has actually been sent. That table answers 
 - `risky` — LinkedIn removes groups that show engagement-pod behaviour. Ask individuals, never reciprocally.
 - `no-bannable` — Reddit, Hacker News, Product Hunt. Never record a boost ask against these. HN's rule penalises **sites** as well as accounts, so one incident can flag the project's domain.
 
+## What every post should drive
+
+Read `project/goals.md` before writing any post. The five goals in priority order: play, share builds, contribute, connect with experts, suggest funding. Do not write posts that present the project as a professional knowledgebase or a scientific resource to browse - that framing serves none of the five goals.
+
 ## Varying text
 
 One blurb per room, each genuinely different: different opening line, different fact led with, different sign-off. Never reuse a sentence across two rooms, even in different languages. Identical text across many chats is precisely the pattern that gets a personal Telegram account flagged. When suggesting send times, spread them across a day, hours apart.
@@ -77,8 +81,8 @@ One blurb per room, each genuinely different: different opening line, different 
 
 ## Images
 
-Each LinkedIn draft has an `image:` field in its frontmatter specifying the expected filename and what to screenshot. Images go next to their draft file (e.g. `drafts/linkedin/page-01-knowledgebase-launch.png`). No separate assets folder. Most platforms can reuse the same base screenshots cropped differently.
+Each original LinkedIn post draft has an `image:` field in its frontmatter specifying the expected filename and what to screenshot. Images go next to their draft file (e.g. `drafts/linkedin/showcase/page-01-knowledgebase-launch.png`). Reshare commentary references the source post and does not need separate media. No separate assets folder. Most platforms can reuse the same base screenshots cropped differently.
 
 ## After changing the registry
 
-Run `python scripts/check_registry.py`. It catches duplicate ids, broken references, UTM values that will split into separate analytics rows, and boost asks recorded against rooms where asking is bannable. Fix what it names before finishing.
+Run `uv run --no-project python scripts/check_registry.py`. It catches duplicate ids, broken references, UTM values that will split into separate analytics rows, and boost asks recorded against rooms where asking is bannable. Fix what it names before finishing.

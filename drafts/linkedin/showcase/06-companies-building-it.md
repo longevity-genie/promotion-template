@@ -5,7 +5,7 @@ image_description: Screenshot of the knowledgebase filtered to show genes with m
 
 # Page post 6: The companies already building these therapies
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 

@@ -9,6 +9,15 @@
 
 The page voice is the project's voice, not Anton's or Livia's. Third person plural ("we") or impersonal ("the knowledgebase rates..."). More institutional than the personal profiles but still plain language, not press-release register.
 
+## Draft channels
+
+- `showcase/` - institutional posts published by the enhancement.bio showcase page
+- `anton/` - native posts written in Anton's personal scientific voice
+- `livia/` - native posts written in Livia's design-process voice
+- `anton-reshares/` - Anton's short personal commentary when resharing a corresponding showcase post
+
+Reshare drafts use the same numbered slug as their source in `showcase/`. They are commentary attached to a reshare, not comments posted under the original.
+
 ## Articles vs native posts
 
 **Lead with native posts, not articles.** LinkedIn's feed algorithm distributes native posts 3-5x more than articles (Pulse). Articles live on a separate tab and get minimal feed impressions in the first 48 hours. The tradeoff:

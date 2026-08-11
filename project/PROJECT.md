@@ -76,14 +76,9 @@ The numbers and claims you repeat everywhere. An agent may use **only** these - 
 
 Bluesky-specific prefix: the DNA emoji before tags.
 
-## Goals, in priority order
+## Goals
 
-All four weighted equally:
-
-1. Site traffic (sessions and completed characters)
-2. Scientist contributors (gene nominations, evidence corrections, GitHub issues from strangers)
-3. Exhibitions and funders (residency acceptances, funded opportunities)
-4. Press coverage (newsletter mentions, articles, podcast bookings)
+See [goals.md](goals.md) for the full list with metrics. In short: make people play, share builds, contribute, connect us with experts, suggest funding sources.
 
 ## Assets on hand
 

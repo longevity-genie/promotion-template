@@ -5,7 +5,7 @@ image_description: Screenshot of a gene page with the Ask GPT and Ask Claude but
 
 # Page post 2: AI assistants on gene pages
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 

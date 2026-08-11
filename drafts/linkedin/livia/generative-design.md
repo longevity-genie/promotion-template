@@ -5,12 +5,11 @@ image_description: Sculpture render or photograph showing the Voronoi shell geom
 
 # LinkedIn - Livia: generative design angle
 
-> Standing facts and voice rules: see [PROJECT.md](../../project/PROJECT.md) and [copy-pack.md](../../project/copy-pack.md).
+> Standing facts and voice rules: see [PROJECT.md](../../../project/PROJECT.md) and [copy-pack.md](../../../project/copy-pack.md).
 
-## Pages
+## Channel
 
-- **Showcase page:** https://www.linkedin.com/showcase/138363945/ (enhancement.bio)
-- **Company page:** https://www.linkedin.com/company/106920105/ (Longevity Genie - cross-post here)
+Post natively from Livia's personal LinkedIn profile. This is Livia's design-process voice, not showcase-page copy.
 
 ## Timing
 
@@ -35,3 +34,5 @@ Same playbook as Anton's post:
 > This is procedural generation from real biological data, not AI image generation. The algorithm is ours and it is open.
 >
 > https://enhancement.bio
+>
+> If you know someone who works at the intersection of computational geometry and biology, send it their way.

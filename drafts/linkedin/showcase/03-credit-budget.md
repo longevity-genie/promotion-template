@@ -5,7 +5,7 @@ image_description: Screenshot of the build view showing credit budget, gene sele
 
 # Page post 3: The credit budget - why constraints drive engagement
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 

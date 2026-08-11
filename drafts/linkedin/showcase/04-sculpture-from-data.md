@@ -5,7 +5,7 @@ image_description: Sculpture render or photograph of a printed sculpture. Physic
 
 # Page post 4: The sculpture - procedural generation from biological data
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 

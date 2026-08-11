@@ -5,7 +5,7 @@ image_description: Screenshot of the build flow mid-game - gene selection screen
 
 # Page post 5: The game - why gamification works for science communication
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 

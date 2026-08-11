@@ -5,7 +5,7 @@ image_description: Screenshot of the enhancement.bio knowledgebase showing gene 
 
 # Page post 1: The knowledgebase - what it is
 
-> Post from: enhancement.bio showcase page. See [page-strategy.md](page-strategy.md) for timing and engagement protocol.
+> Post from: enhancement.bio showcase page. See [page-strategy.md](../page-strategy.md) for timing and engagement protocol.
 
 ## Angle
 
