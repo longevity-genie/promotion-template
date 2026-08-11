@@ -42,11 +42,9 @@ Find and verify the LinkedIn company pages for each tagged organization. Some ma
 
 ## Post
 
-Eight of the therapies in our knowledgebase are already sold to adults. Dozens more are in clinical trials. This is not a list of hypotheticals.
+Eight therapies in our knowledgebase are already sold to adults, and dozens more are in clinical trials. Across the 109 genes we catalogued:
 
-Here is what the landscape looks like right now across the 109 genes we catalogued:
-
-**Already on the market:**
+**Already on the market**
 - Ionis Pharmaceuticals sells Tryngolza, an APOC3 knockdown, FDA-approved
 - Arrowhead Pharmaceuticals has Plozasiran (APOC3 silencing) marketed
 - Dompe Farmaceutici sells Oxervate, a recombinant NGF for corneal nerve regeneration, approved in both the EU and the US
@@ -54,24 +52,24 @@ Here is what the landscape looks like right now across the 109 genes we catalogu
 - Bitop AG sells ectoine products derived from Halomonas elongata extremophile biology
 - Artgen Biotech has marketed Neovasculgen (VEGF gene therapy) in Russia since 2011
 
-**In human clinical trials:**
-- Verve Therapeutics (now Eli Lilly) is running the first in-vivo base editing trials in humans - PCSK9 and ANGPTL3
+**In human clinical trials**
+- Verve Therapeutics (now Eli Lilly) is running the first in-vivo base editing trials in humans, targeting PCSK9 and ANGPTL3
 - CRISPR Therapeutics has a Phase 1 ANGPTL3 gene editing trial open
 - Toregem BioPharma in Japan is in Phase 1 with an antibody that regrows teeth by reactivating dormant tooth buds
-- Life Biosciences is running the first Phase 1 of OCT4/SOX2/KLF4 partial reprogramming for vision restoration
+- Life Biosciences entered Phase 1 with OCT4/SOX2/KLF4 partial reprogramming for vision restoration
 
-**Building in alternative jurisdictions:**
+**Building in alternative jurisdictions**
 - Minicircle, Unlimited Bio, Klothea Bio, and BioViva operate from Prospera ZEDE in Honduras, running follistatin, VEGF, Klotho, and telomerase gene therapies under the zone's regulatory framework
 - Quantum Longevity AI is opening under the Bahamas LARTA framework in 2026
 
-**Preclinical with serious funding:**
+**Preclinical**
 - Paratus Sciences raised $100M to develop therapeutics from bat inflammasome biology
 - Jocasta Neuroscience raised $35M for alpha-Klotho protein therapy for cognitive decline
 - Rejuvenate Bio is testing FGF21 + sTGFbR2 combination gene therapy in dogs at Tufts
 
-Every one of these companies targets a gene in our open knowledgebase. We rate the evidence honestly - where it is strong, where it is weak, and where nobody has done the experiment that would settle the question.
+Every one of these companies targets a gene in our open knowledgebase. We rate the evidence for each, where it holds up and where the experiment that would settle things has not been done.
 
-Browse the full landscape: https://enhancement.bio
+Browse the full list: https://enhancement.bio
 
 If your organization works on any of these genes and we got something wrong, we want to know.
 

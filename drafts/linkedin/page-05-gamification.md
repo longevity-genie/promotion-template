@@ -15,17 +15,17 @@ The character generator as a science communication mechanism. Not "we made a gam
 
 Most science databases get two kinds of visitors: specialists who already know what they are looking for, and everyone else who bounces after 30 seconds.
 
-We wanted to fix that. So we built a character generator.
+We wanted to change that, so we built a character generator.
 
-You pick a nickname, you get 100 enhancement credits, and you face a library of 80 real genes from 108 organisms. Tardigrade radiation resistance. Naked mole-rat cancer immunity. Axolotl regeneration. Elephant tumour suppression. Each gene has a cost based on the breadth and strength of its evidence.
+You pick a nickname, get 100 enhancement credits, and face a library of 80 real genes from 108 organisms: tardigrade radiation resistance, naked mole-rat cancer resistance, axolotl regeneration, elephant tumour suppression. Each gene has a cost based on how broad and strong its evidence is.
 
-The catch: 100 credits is not enough. You cannot take everything. So you start reading.
+But 100 credits is not enough to take everything, which means you have to start reading.
 
-Which matters more to you - radiation resistance or cancer immunity? The evidence for Dsup is strong in human cells but showed toxicity in nerve cells. The evidence for naked mole-rat HAS2 made it all the way to a mouse lifespan study. FOXO3 has the strongest human longevity association ever found and nobody has put it in a mammal and measured lifespan. That gap changes your decision.
+Which matters more to you, radiation resistance or cancer immunity? The evidence for Dsup is strong in human cells but showed toxicity in nerve cells. Naked mole-rat HAS2 made it all the way to a mouse lifespan study. FOXO3 has the strongest human longevity association ever found. That kind of detail changes your decision.
 
-The result is not a quiz with a score. Your gene choices procedurally generate a unique 3D-printable sculpture from the biophysical properties of the genes you picked. Protein mass, exon count, hydrophobicity - they become geometry. Every build is different. Every build is downloadable as an STL.
+Your gene choices do not produce a quiz score. They procedurally generate a unique 3D-printable sculpture from the biophysical properties of the genes you picked. Molecular weight, exon count, hydropathy become geometry. Every build is different and downloadable as an STL.
 
-We have seen visitors spend 20 minutes on builds that would be 2-minute bounces in a standard database interface. The budget makes the science personal.
+We have seen visitors spend 20 minutes on builds that would be 2-minute bounces in a standard database interface.
 
 Try it: https://enhancement.bio
 

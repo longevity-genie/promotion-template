@@ -17,13 +17,13 @@ One of Livia's sculpture renders or (when available) a photograph of a printed s
 
 ## Post
 
-Every combination of genes in Materialized Enhancements produces a different sculpture. None of them were designed by hand.
+Every combination of genes in Materialized Enhancements produces a different sculpture, and none of them were designed by hand.
 
-Protein mass, exon count, hydrophobicity, disorder fraction, isoelectric point - the biophysical properties of the genes you select become the parameters of a Voronoi shell. The geometry is procedurally generated from real biological data, not from an image model.
+Molecular weight, exon count, hydropathy, disorder, isoelectric point: the biophysical properties of the genes you select become the parameters of a Voronoi shell. The geometry is procedurally generated from real biological data, not from an image model.
 
-The hard constraint: every result across the combination space must print cleanly on a consumer 3D printer, without a human checking each one. That printability requirement shaped the geometry more than any aesthetic decision. A form that can fail structurally is a form you have to understand mathematically.
+The hard constraint: every result across the combination space must print cleanly on a consumer 3D printer, without a human checking each one. That printability requirement shaped the geometry more than any aesthetic decision. You have to understand a form mathematically before you can trust it not to fail structurally.
 
-The algorithm is open. The code is open. The biological data behind it - 109 genes, 1,023 experiments, 108 source organisms - is open.
+The algorithm, code, and biological data behind it (109 genes, 1,023 experiments, 108 source organisms) are all open.
 
 Premiered at Milano Design Week 2026 (CODAME ART+TECH, "The New Human"). Shown at RoBioinfo 2026.
 

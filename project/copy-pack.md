@@ -28,7 +28,7 @@ Several people and at least two AI harnesses will draft text for this project. W
 > Lead with what exists today and what was shown where (Milano Design Week, RoBioinfo 2026). Be concrete about what is built versus what is planned. Overstating maturity is the fastest way to lose a serious one.
 
 **Longevity / biohacking / transhumanism communities**
-> Lead with the knowledgebase and the honest ratings. The 8 already-commercial therapies establish credibility. The split ratings and unflattering entries (AQP1, FOXO3's unopened box) show intellectual honesty.
+> Lead with the knowledgebase and the honest ratings. The 8 already-commercial therapies establish credibility. The split ratings and unflattering entries (AQP1, Dsup's neuron reversal, FOXO3's single-lab replication gap) show intellectual honesty.
 
 ---
 
@@ -91,7 +91,7 @@ Beyond the hard `forbidden_words` list in `PROJECT.md`, these are stylistic tell
 
 Strong candidates already written in the knowledgebase, ordered by how well they travel:
 
-1. **FOXO3** - "the biggest unopened box in longevity genetics": strongest human longevity association, nobody has ever put it in a mammal and measured lifespan
+1. **FOXO3** - strongest human longevity association, and only one lab has ever put it in a mouse and measured lifespan (Inci 2025, ~30% increase, awaits replication)
 2. **AQP1** - the debunk: water-holding frog aquaporin, a case study in how a plausible enhancement story gets assembled entirely from sources that do not support it (counterintuitive, therefore shareable)
 3. **CPD photolyase** - a UV-repair gene placental mammals threw away 170 million years ago; marsupials kept it
 4. **Klotho** - narrow dosing window: two copies of KL-VS is worse than one

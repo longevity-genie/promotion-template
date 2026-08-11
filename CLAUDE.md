@@ -73,6 +73,7 @@ One blurb per room, each genuinely different: different opening line, different 
 - WhatsApp is draft-only because it runs on a personal number.
 - Hacker News is never automated and its text must be written by hand — no LLM, not even for editing.
 - Third-party Discords are manual because bot-token integrations require adding a bot you cannot add.
+- **LinkedIn MCP** — use only official-API tools (OAuth 2.0): `get_my_profile`, `create_post`, `edit_post`, `delete_post`, `get_my_posts`, `get_my_post_analytics`. Never use unofficial/cookie-based tools (`search_people`, `get_profile`, `get_feed`, `send_message`, `search_companies`, etc.) — they rely on scraping and risk account restrictions.
 
 ## Images
 
