@@ -23,7 +23,7 @@ It's the one mechanism that makes a single click traceable to a single post in a
 ## Full URL shape
 
 ```
-https://example.org/?utm_source=rd-generative&utm_medium=community&utm_campaign=evidence-ladder&utm_content=shr-0042
+https://sugar-sugar.study/?utm_source=li-anton&utm_medium=social&utm_campaign=sugar-human-baseline&utm_content=shr-0001
 ```
 
 ## Choosing what to link

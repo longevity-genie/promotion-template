@@ -65,7 +65,7 @@ Nothing enters `shares.csv` until it has actually been sent. That table answers 
 
 ## What every post should drive
 
-Read `project/goals.md` before writing any post. Posts exist to move people toward the goals listed there, in that priority order. Do not write posts that present the project as a brochure or a resource to browse if that framing serves none of the goals.
+Read `project/goals.md` before writing any post. The five goals in priority order: play the study, share a result card, recruit toward about 200 adults, take protocol-safe contributions, connect with diabetes / CGM / glucose-ML groups. Do not write posts that present Sugar-Sugar as a brochure, a knowledgebase, or a dosing app - those framings serve none of the five goals and two of them are false.
 
 ## Write as the project team
 
@@ -112,7 +112,7 @@ uv run --no-project python scripts/sync_tracker.py             # write
 Credentials, both gitignored and never committed:
 
 - `keys/service.json` — Google service account with edit rights on the sheet
-- `.env` — `TRACKER_SHEET_ID` (or `TRACKER_SHEET_TITLE`) and one `*_BUFFER_API_KEY` per Buffer account
+- `.env` — `TRACKER_SHEET_ID` (or `TRACKER_SHEET_TITLE`) and one `*_BUFFER_API_KEY` per Buffer account. On this branch the copied id is the enhancement.bio sheet; do not run a write sync until it is a Sugar-Sugar sheet.
 
 The script discovers accounts by scanning `.env` for `*_BUFFER_API_KEY`, so
 adding a Buffer account is a one-line change with no code edit.

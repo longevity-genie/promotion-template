@@ -1,10 +1,10 @@
 # promotion-template
 
+This **`sugar` branch** promotes the [Sugar-Sugar](https://sugar-sugar.study) study ([GlucoseDAO/sugar-sugar](https://github.com/GlucoseDAO/sugar-sugar)): a browser game that measures human next-hour CGM prediction so machine-learning models have a baseline to beat.
+
+`main` stays the reusable template. The `enhancement-bio` branch is the same system for [enhancement.bio](https://enhancement.bio). Standing facts for this branch live in `project/PROJECT.md`. The study app itself is the sibling `sugar-sugar` folder - do not copy it into this repo.
+
 A reusable template for promoting a project across many communities without spamming, and for tracking what actually worked.
-
-Clone it, fill in `project/PROJECT.md`, and you have a working distribution system: a registry of communities with their rules attached, a draft-review-send queue with a real human approval gate, and share-level tracking that answers "which rooms are worth posting in" after a few weeks.
-
-Built for [enhancement.bio](https://enhancement.bio), generalised so the next project starts from something instead of nothing.
 
 ## The idea in one paragraph
 

@@ -6,15 +6,15 @@ Pre-written, platform-specific posts and outreach, organised by channel. Each fi
 
 ```
 drafts/
-├── linkedin/           one file per person per angle
-├── facebook/           page posts
-├── long-form/          articles, Show HN, Habr, The Conversation
+├── linkedin/           anton/, livia/, glucosedao/, anton-reshares/
+├── facebook/           page posts (GlucoseDAO has no Facebook page listed)
+├── long-form/          articles, Show HN (hand-written), Habr, The Conversation
 ├── bluesky.md
 ├── discord.md
 ├── reddit.md
 ├── telegram.md
 ├── whatsapp.md
-├── press-emails.md     curator and press outreach
+├── press-emails.md
 └── institutional-emails.md
 ```
 

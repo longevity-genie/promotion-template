@@ -1,74 +1,79 @@
-# Promotion plan
+# Sugar-Sugar - promotion plan
 
-**Written `<YYYY-MM-DD>`. Budget: `<zero | $X/month>`. Labour: `<who, how many hours/week>`.** Languages: `<en, ...>`. Goals, in priority order: `<from PROJECT.md>`.
+**Written 27 August 2026. Budget: zero. Labour: Anton + Livia, a few hours per week combined.**
+Languages: English first; German, Romanian, Russian, Ukrainian when the room is already in that language.
+Goals, in priority order: play the study, share a result card, recruit toward about 200 adults, take contributions that do not break the protocol, connect with diabetes / CGM / glucose-ML groups.
 
-Everything named in this document should be checked against the live web on the date above. Items that could not be verified are marked UNVERIFIED. Nothing here should be invented.
+Everything named here was checked against the sugar-sugar repo and the contacts file on 27 August 2026. Items that could not be verified on the live web (the Dash homepage is a WebSocket shell) are marked UNVERIFIED. Nothing here is invented.
 
 ---
 
 ## 1. The strategic problem, stated honestly
 
-`<State how much time you actually have per week, what that rules out, and what it makes possible. Be honest — this section prevents the rest of the plan from being fiction.>`
+This branch exists to recruit for a live observational study, not to grow a consumer app brand. The protocol target is about 200 adults. Warm rooms Anton and Livia are already in will move that number faster than cold diabetes subreddits, and cold diabetes subreddits will ban a blast that looks like an app launch.
 
-Four questions to answer:
+Four things about the situation make this workable:
 
-1. **What communities are you already inside?** Warm rooms where you are a long-standing member are your best asset. Posting once with a real update in a group you have been part of for years is not spam. The spam feeling comes from cold-blasting strangers.
-2. **What institutional leverage do you have?** University press offices, professional associations, and editorial platforms that require credentials are doors closed to independents.
-3. **What is your most citable asset?** The thing serious people stay for, not the thing that catches attention. Lead with whichever one the room rewards.
-4. **What can be automated?** Pre-generated and scheduled posts change the calculus — you batch-generate a week of posts in one sitting instead of posting daily.
+**The instrument is already live.** https://sugar-sugar.study is the pillar. You do not need a preprint before the first post. You need screenshots of a real playthrough and the honesty not to invent a participant count.
+
+**You are already inside longevity, biohacking, bioinformatics and Romanian / Russian / Ukrainian science chats.** Those rooms will not fill a 100-person diabetes arm by themselves, but they will fill the non-diabetes and wellness-CGM arm, and they will do it without a modmail wait. Posting once, as a member with a study link, is what those rooms already do.
+
+**You have institutional leverage.** Anton is PI at IBIMA, Universitätsmedizin Rostock. That unlocks the university press office and The Conversation in a way a GlucoseDAO-only account does not. Livia is at HEALES, which hosts the app. Use those names in institutional email, not in casual Telegram.
+
+**Diabetes and CGM rooms are a different sport.** Many of them treat unsolicited study links as spam. The destination rows for those rooms start `on-hold` until someone reads the pin and, where needed, writes the mods. Do not "just post".
 
 ### Time allocation
 
 | Where the time goes | Share | Why |
 |---|---|---|
-| **One-off durable assets** | `<~40%>` | `<Directory listings, awesome-list PRs, press submissions. Done once, keeps paying.>` |
-| **One anchor artefact per week** | `<~25%>` | `<Make one thing, reuse it across rooms with changed opening lines.>` |
-| **Pre-generated scheduled posts** | `<~20%>` | `<Batch-generate platform-native posts from each artefact, schedule them.>` |
-| **Replying** | `<~15%>` | `<Where contributors and curators actually come from. Non-negotiable.>` |
+| **Week-zero assets** | ~30% | One honest playthrough, screenshots, one share card, one short screen recording. Without these every post is a bare URL. |
+| **Warm rooms** | ~30% | Telegram, WhatsApp, LinkedIn personal feeds. One distinct blurb per room, hours apart. |
+| **One-off durable asks** | ~25% | Uni press office, HEALES channels, diabetes-org emails after ethics language is checked, Show HN written by hand. |
+| **Replying** | ~15% | An unanswered "is this medical advice?" comment kills the thread. Answer it. |
 
 ### Tactical rules
 
-1. `<e.g. Never call X "AI-generated" — say "algorithmically generated". Most target subreddits ban AI content by rule.>`
-2. `<e.g. Do not use an LLM to write anything posted on Hacker News.>`
-3. `<e.g. Read the room's rules before posting, every time.>`
-4. `<e.g. One ask per message, stated in the first two lines.>`
-5. `<e.g. Always include a forward request: "If someone you know would find this useful, please pass it on.">`
+1. **Never claim the app gives medical advice or calculates insulin.** Ethics clearance is A 2026-0064 for a non-interventional historical-data study.
+2. **Do not use an LLM to write anything posted on Hacker News.**
+3. **Read the room's rules before posting, every time.** Diabetes rooms first.
+4. **Write from inside the study.** Question -> gap -> drawing task -> live URL.
+5. **Do not invent N.** If you need "how many people played", read the running site or the study CSVs.
+6. **Do not run `sync_tracker.py` until `.env` has a Sugar-Sugar sheet id.** The copied id is the enhancement.bio tracker.
+7. **Vary wording across chats.** Identical text in many Telegram rooms is how personal accounts get flagged.
 
 ---
 
 ## 2. Week zero: fixes before any outreach
 
-Things that must be true before the first post goes out. A post that sends traffic to a site missing these wastes the opportunity.
-
 | # | Fix | Status | Notes |
 |---|---|---|---|
-| 1 | `<e.g. Link to repo on the homepage>` | `<TODO / DONE>` | |
-| 2 | `<e.g. Contributor-ready repo (CONTRIBUTING.md, good-first-issue labels)>` | | |
-| 3 | `<e.g. No signup wall on the core loop>` | | |
-| 4 | `<e.g. Reconcile public numbers across site, repo, and docs>` | | |
-| 5 | `<e.g. Professional photography of the physical product>` | | |
+| 1 | Live URL answers and consent works | UNVERIFIED in this pass | Open https://sugar-sugar.study in a real browser before the first send |
+| 2 | Desktop + mobile screenshots of a drawn prediction vs the real line | TODO | Repo has `assets/images/screenshot.png`; crop for LinkedIn / Telegram |
+| 3 | One real or staging share-card PNG | TODO | `uv run share` in the sugar-sugar repo; do not invent a MAE |
+| 4 | 15-20 s silent screen recording of drawing a forecast | TODO | Best asset for Telegram and LinkedIn |
+| 5 | Sugar-Sugar Google tracker sheet, shared with `keys/service.json` | TODO | Replace `TRACKER_SHEET_ID` before any sync |
+| 6 | GlucoseDAO LinkedIn / X / Telegram bios point at sugar-sugar.study | UNVERIFIED | Contacts file lists the accounts; check the live bios |
+| 7 | Nightscout language stays honest | DONE in PROJECT.md | Planned, not implemented |
 
 ---
 
 ## 3. Content engine
 
-Make **one thing per week**, in about `<N>` minutes. It is then posted to different rooms over the following days with a changed opening line. You do not write anything twice.
+Make **one thing per week**, in about 40 minutes. Reuse it across rooms with a changed first line.
 
-Rotate `<N>` formats:
+**A. The missing baseline** - why ML papers have a model error and no human error. Best for LinkedIn, LessWrong, Habr, Show HN (hand-written).
 
-**A. `<Format name>`** — `<why this is your cheapest/best format; what makes it repeatable>`
+**B. The drawing task** - screenshot or short recording of a line being pulled, then the real trace. Best for Telegram, Bluesky, Facebook groups once rules are read.
 
-**B. `<Format name>`** — `<what it is and which platforms it serves>`
+**C. A number you actually have** - ethics reference, 6-12 rounds, 3 hours in / 60 minutes out, GlucoBench 60-minute MAE 9-13 mg/dL as the published *model* range (cite the paper, do not imply we beat it). No fake participant counts.
 
-**C. `<Format name>`** — `<what it is and which audience it earns respect from>`
+**D. How it was built** - Dash, share cards, file formats, why protocol changes need a conversation. Best for GitHub, r/opensource, Habr.
 
-**D. `<Format name>`** — `<what it is and which builders/contributors it reaches>`
-
-Cadence: `<e.g. A, B, A, C, A, B, A, D>` and repeat.
+Cadence: A, B, A, C, A, B, A, D.
 
 ### Reuse chain for one artefact
 
-Make it Monday. Then, over the week: `<list platforms in posting order, with the rationale for each>`
+Make it Monday. Then: Bluesky (image + short mechanic) - LinkedIn Anton (methods) - GlucoseDAO LinkedIn page (we) - two or three warm Telegram rooms with distinct wording - one WhatsApp longevity / health room - Livia personal if the artefact is the drawing task.
 
 ---
 
@@ -76,4 +81,9 @@ Make it Monday. Then, over the week: `<list platforms in posting order, with the
 
 | Deadline | What | Action |
 |---|---|---|
-| `<YYYY-MM-DD>` | `<event or CFP>` | `<what to do>` |
+| As soon as week-zero assets exist | Warm Telegram / WhatsApp | First recruitment blurbs, hours apart |
+| After diabetes-room rules are quoted | r/diabetes and CGM subs | Modmail first if the pin says so |
+| When a genuine technical write-up exists | Show HN / Habr | Hand-written HN; Habr is a real article, not a launch note |
+| When N is worth a methods post | The Conversation / uni press | Anton as academic, not GlucoseDAO as brand |
+
+No CFP dates were verified for Sugar-Sugar on 27 August 2026. Do not copy enhancement.bio exhibition deadlines onto this study.
