@@ -18,7 +18,7 @@ If it performs, `@habr_com` (131,385 subscribers) amplifies it for free. Afterwa
 
 ## Article 1: Evidence ladder methodology
 
-**Title:** "Как мы построили шкалу доказательности для 109 генов"
+**Title:** "Как мы построили шкалу доказательности для 136 генов"
 
 The methodology piece. How the translational ladder rating system works, why split ratings for mechanism vs intervention, what the hardest judgment calls were.
 

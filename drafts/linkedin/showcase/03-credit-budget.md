@@ -13,16 +13,16 @@ The game mechanic as a science communication tool. Lead with the design decision
 
 ## Post
 
-You get 100 enhancement credits to spend across 80 genes from 108 organisms. You cannot afford everything.
+You get 100 enhancement credits to spend across 106 playable genes from 72 source species. You cannot afford everything.
 
-That is the core mechanic of Materialized Enhancements, and why people read the evidence ratings instead of skipping to the cool organism names.
+That is deliberate. A list of extraordinary organisms is easy to skim; a budget makes you decide what you actually believe is worth buying.
 
-When tardigrade Dsup costs credits you could spend on naked mole-rat cancer resistance or axolotl regeneration, you start caring whether the evidence is cell-line-only or made it to primate trials. That is how people end up spending 20 minutes on a knowledgebase instead of 2.
+When Dsup competes with naked-mole-rat cancer resistance or axolotl regeneration, the evidence grade stops being decoration. You start asking whether a result is cell-line-only or has reached a primate trial.
 
-Credit costs reflect the translational stage and breadth of each gene's evidence. A gene rated "market" (already sold to adults) costs more than one rated "cell line only."
+Credit costs reflect the breadth and translational stage of the evidence. A gene with human or market evidence costs more than one that has only been tested in cells.
 
 Your choices grow a 3D-printable sculpture from the biophysical properties of the genes you selected. Molecular weight, exon count, hydropathy, disorder, isoelectric point become the parameters of a Voronoi shell, so every combination produces a different form.
 
-Design yours: https://enhancement.bio
+Build one and see which trade-off you make: https://enhancement.bio
 
 #SciComm #OpenScience #Genomics #generativeart #creativecoding

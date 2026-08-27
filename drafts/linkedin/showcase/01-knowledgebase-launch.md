@@ -13,17 +13,19 @@ Project introduction. Lead with the knowledgebase (the durable asset), not the g
 
 ## Post
 
-109 genes from 108 organisms, 1,023 catalogued experiments, 850 DOI-linked references. 729 registered clinical trials. Every claim rated by how far up the translational ladder it got: cell line, model animal, primate, human trial, market.
+We started Materialized enhancement project at New Human Hackathon just to show that existing comparative biology has a lot of potential for human enhanement. With time many people got interested in the knowledgebase we collected even more than in the art dimension. With this we released it as https://enhancement.bio/ and created a dedicated knowledgebase section.
 
-Materialized Enhancements is an open knowledgebase of genes that let other species do things humans cannot. Tardigrade Dsup for radiation resistance, naked mole-rat hyaluronic acid for cancer resistance. Elephant multi-copy TP53. Axolotl Lin28a for regeneration.
+The current library has 136 genes from 72 source species, 1,134 experimental records, 973 DOI-linked references and 751 registered clinical trials. Every claim is marked by where the evidence stops: cell line, model animal, primate, human trial or market.
 
-We rate every claim with split scores. Confidence in the mechanism is separate from confidence in the intervention. CAHS D from tardigrades: high confidence in yeast, only medium in human cells. Melanin: high for passive radiation shielding, low for the radiosynthesis story. Eight of the therapies in the library are already sold to adults today.
+The most famous examples of the super-powers: Tardigrade Dsup can protect DNA even when moved to human cells, Naked-mole-rat hyaluronic acid can extend mouse healthspan. Elephants carry extra TP53 copies for cancer protection. Axolotls regenerate tissue that adult mammals do not.
 
-The knowledgebase, code, and data are open under MIT licence.
+We keep two questions apart: is the mechanism plausible, and has an intervention actually worked? CAHS D rates highly in yeast and lower in human cells. Melanin looks useful as passive radiation shielding, while the radiosynthesis claim has much weaker support. Some target therapies are already approved or marketed; most of the library is still preclinical.
+
 
 https://enhancement.bio
 https://github.com/longevity-genie/materialized-enhancements
 
-If you work on comparative biology or translational genetics and think we got a rating wrong, we want to hear it. If you know someone who would care about this, pass it on.
 
-#OpenScience #Genomics #ComparativeBiology #longevity #SciComm
+The knowledgebase, code, and data are open under MIT licence.  Feel free contribute, comment and share your impressions!
+
+#OpenScience #Genomics #ComparativeBiology #longevity #SciComm #transhumanism

@@ -14,21 +14,23 @@
 
 ## One-liner
 
-An open, evidence-rated knowledgebase of 109 human enhancement genes from 108 organisms, wrapped in a character generator with a hard credit budget so people actually read the science.
+An open, evidence-rated knowledgebase of 136 human enhancement genes from 72 source species, wrapped in a character generator with a hard credit budget so people actually read the science.
 
 ## Standing facts
 
 The numbers and claims you repeat everywhere. An agent may use **only** these - it is instructed never to invent a figure. Keep them current, and if the live site disagrees with this list, fix one or the other rather than leaving both.
 
+> **Updated 2026-08-25.** The app repository and its current README now carry the refreshed library counts below. Do not reuse the old 109/80/71/1,023/850/729/108 figures in new copy. The old LinkedIn post remains a historical record and still needs its in-place correction.
+
 | Fact | Value | Last verified |
 |---|---|---|
-| Genes catalogued | 109 | 2026-07-29 |
-| Genes playable in the game | 80 | 2026-07-29 |
-| Catalogued experiments | 1,023 | 2026-07-29 |
-| Source organisms | 108 | 2026-07-29 |
-| Registered clinical trials | 729 | 2026-08-06 |
-| Organizations in database | 108 (69 labs, 36 biotech, 3 clinics) | 2026-08-06 |
-| Unique DOI-linked references | 850 | 2026-08-06 |
+| Genes catalogued | 136 | 2026-08-24 |
+| Genes playable in the RPG | 106 | 2026-08-24 |
+| Catalogued experiments | 1,134 | 2026-08-24 |
+| Source species the genes are borrowed from | 72 | 2026-08-24 |
+| Registered clinical trials | 751 | 2026-08-24 |
+| Organizations in database | 109 (69 labs, 37 biotech, 3 clinics) | 2026-08-24 |
+| Unique DOI-linked references | 973 | 2026-08-24 |
 | Therapies already sold to adults | 8 | 2026-07-29 |
 | Enhancement credits per character | 100 | 2026-07-29 |
 | Gene categories | 6 (Longevity & Genome, Stress Resistance, Environmental Adaptation, Regeneration, Expression, Perception) | 2026-07-29 |
@@ -42,11 +44,12 @@ The numbers and claims you repeat everywhere. An agent may use **only** these - 
 
 - Plain hyphens, not em dashes.
 - No marketing register. Never "excited to announce", "thrilled to share", "game-changing", "revolutionary".
-- Lead with the method or the evidence, not the outcome.
+- Write from inside the project, as one of the people who made it. Lead with what interested the team, what we tried, and why we made it this way; bring in the method and evidence as part of that story.
+- Give team stories a clear causal sequence, like a scientist explaining their own poster to a mixed audience: our question -> our motivation -> what we built -> what exists now -> why the playful or artistic layer follows. Do not replace this sequence with disconnected feature paragraphs.
 - Concrete numbers over adjectives.
-- One ask per message, stated in the first two lines.
-- Always include a forward request ("if you know someone who would find this useful, please pass it on").
-- The ask comes before the explanation, not after.
+- Use first-person team language (`I` or `we`), not detached science-pop, press-release, or external-review language.
+- One clear ask at most per message. Do not add an ask when the post works without one.
+- Never append a generic third-person referral line. If asking readers to contribute or share is relevant, put that request at the end, write it naturally for the room, and do not reuse it mechanically across posts.
 - Be precise about where the evidence stops - the gap is the story.
 - Never oversell. An unflattering rating is more interesting than a clean claim.
 - Do not sell for or against human enhancement - show where the evidence is and where it ends.
@@ -98,5 +101,5 @@ See [goals.md](goals.md) for the full list with metrics. In short: make people p
 - LinkedIn showcase page: https://www.linkedin.com/showcase/138363945/
 - Twitter/X: use existing Longevity Genie account (park, low priority).
 - Facebook page: to be created.
-- LinkedIn groups available for cross-posting via browser automation.
-- Post automation: the promotion-template repo supports pre-generating posts and scheduling them for LinkedIn, Twitter/X, and other platforms.
+- LinkedIn groups: browser-only. No Groups API since 2017, no scheduler can reach a group composer, and a showcase page cannot post in one - only a member profile can. Inventory in `registry/linkedin-groups-catalogue.csv`.
+- Post automation: the promotion-template repo supports pre-generating posts and scheduling them for the LinkedIn personal feed and pages, Twitter/X, and other platforms. Not for LinkedIn groups.

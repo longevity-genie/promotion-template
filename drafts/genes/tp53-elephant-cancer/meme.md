@@ -1,3 +1,7 @@
+---
+image: images/elephant_meme.jpeg
+---
+
 # TP53 Meme — The Elephant in the Room
 
 ## Concept
@@ -31,9 +35,9 @@ Single-panel scene. A cartoon cancer cell character (anthropomorphized, evil gri
 
 ## Post caption / comment
 
-Elephants have 20 copies of the TP53 tumor suppressor gene. Humans have one. This is Peto's paradox — large, long-lived animals should get more cancer (more cells dividing = more chances for mutations), but they don't. Elephants appear to solve it with extra p53 copies that trigger cell suicide more aggressively when DNA gets damaged.
+Elephants have about 20 copies of the TP53 tumour-suppressor gene. Humans have one. This is Peto's paradox: a large, long-lived animal has more cells in which cancer could begin, yet elephants rarely develop cancer. Extra p53 copies appear to make damaged elephant cells more willing to die.
 
-The evidence is real and replicated across independent groups:
+The evidence is real, but the translation is not settled:
 
 - Abegglen et al. 2015 (JAMA): elephant lymphocytes undergo apoptosis at twice the rate of human cells after radiation — 14.6% vs 7.2% — proportional to TP53 copy number. https://doi.org/10.1001/jama.2015.13134
 
@@ -41,7 +45,7 @@ The evidence is real and replicated across independent groups:
 
 - Preston & Abegglen 2023 (Cell Death Discovery): one specific retrogene, TP53-R9, induces apoptosis in 6 independent human cancer cell lines by going directly to the mitochondria via the Tid1 chaperone, bypassing the nucleus entirely. https://doi.org/10.1038/s41420-023-01348-7
 
-But here is the elephant in the room:
+Here is the elephant in the room:
 
 1. The same Preston 2023 paper could NOT reproduce MDM2 binding with p53-R9 that the group previously reported. Their own words: "This result contradicts previous results suggesting co-immunoprecipitation of p53-R9 with MDM2." A different group (Padariya et al. 2022, Mol Biol Evol) also found the interaction was weak at best. https://doi.org/10.1093/molbev/msac149
 
@@ -51,7 +55,7 @@ But here is the elephant in the room:
 
 4. Multiple MDM2 antagonist drugs (same p53 pathway) have been terminated or withdrawn from clinical trials.
 
-The biology is fascinating. But translating the elephant's 20 copies of p53 into a therapy for humans? The cancer cell in the meme is not wrong — nobody has noticed the elephant in the room yet.
+The elephant biology is strong enough to study. It is not yet a human therapy. The cancer cell in the meme is right about one thing: the crucial experiment has not been done.
 
 More on the potential and risks of human enhancement: https://enhancement.bio/
 

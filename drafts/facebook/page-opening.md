@@ -13,17 +13,17 @@ It seems obvious that science should be used to enhance humans. What wasn't obvi
 
 ## Post
 
-I think we should use science to enhance humans. Nobody in my circle would argue with that, but when I went looking for which ideas actually had experiments behind them, I couldn't find it collected anywhere.
+Try the character generator and tell us which enhancement you would spend your credits on: https://enhancement.bio
+
+I study aging at the University of Rostock. When I went looking for the experiments behind human-enhancement claims, I could not find them collected in one place, so we built one.
 
 So we made a thing. Tardigrades survive radiation. Their Dsup gene halves DNA damage in human kidney cells, but in rat neurons it did the opposite: promoted double-strand breaks and killed them. Same gene, and the result flipped depending on the tissue.
 
 That part usually gets left out of enhancement discussions. Not whether something works, but in what tissue, at what dose, and how far the evidence got before someone stopped testing.
 
-You don't need a bio background to try it. Pick any gene and there's a button right there that explains it in plain language. You get 100 credits, you can't afford everything, so you figure out what matters to you. Whatever you pick grows a 3D-printable sculpture from the proteins' biophysical properties.
+You do not need a biology background. Pick a nickname, choose from 106 playable genes drawn from 72 source species, and ask about any entry as you go. The budget is 100 credits, so you cannot take everything. Your choices then grow a 3D-printable sculpture from the proteins' biophysical properties.
 
-Go play with it: https://enhancement.bio
-
-If someone you know would care, send it to them.
+If someone you know would enjoy making the same trade-offs, send it to them.
 
 ## Notes
 

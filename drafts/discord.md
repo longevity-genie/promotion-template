@@ -14,7 +14,7 @@ Read `#rules` first, find `#showcase` or `#self-promo`, then post. Three or four
 
 ## Biocord (`discord.gg/biology`)
 
-> Built an open knowledgebase of 109 genes that let other organisms do things we cannot, each rated by how far up the translational ladder the evidence actually got, wrapped in a character generator with a hard 100-credit budget so people actually read the entries. Free, no signup: https://enhancement.bio - and if you spot a rating that is wrong, I would rather hear it than not.
+> Built an open knowledgebase of 136 genes from 72 source species, each rated by where the evidence stops. The character generator gives you 100 credits, so you have to read before you choose. Free, nickname only: https://enhancement.bio. If you spot a rating that is wrong, please tell me.
 
 ---
 
@@ -26,4 +26,34 @@ Read `#rules` first, find `#showcase` or `#self-promo`, then post. Three or four
 
 ## Lifespan.io Chat (`discord.gg/NRvWdM53cb`)
 
-> For anyone who has argued about Dsup or elephant TP53 in here: we catalogued 1,023 experiments on this and rated each claim by translational stage rather than works/doesn't, with split ratings when the mechanism is solid but the intervention is not. 8 of the therapies are already commercial. https://enhancement.bio - would value corrections from this room specifically.
+> For anyone who has argued about Dsup or elephant TP53 in here: the database now holds 1,134 experimental records. We rate each claim by translational stage and split the rating when the mechanism is stronger than the intervention. Some target therapies are already approved; many entries are still preclinical. https://enhancement.bio. Corrections from this room would be useful.
+
+---
+
+## Gene meme posts (attach meme image in Discord message)
+
+Discord's informal tone makes memes a natural fit. Post in #showcase or #general with the meme image and 2-3 lines of context. One per server, pick by topic.
+
+### Biocord / Lifespan.io — Dsup meme
+
+**Image:** `images/dsup2_chat_gpt.jpg`
+
+> Tardigrade Dsup halves DNA damage in human kidney cells. In rat neurons it promoted double-strand breaks and killed the cells. Same protein, opposite result. We rate 136 genes by where the evidence stops: https://enhancement.bio
+
+### Biocord / Science and Technology — TP53 elephant meme
+
+**Image:** `images/elephant_meme.jpeg`
+
+> Elephants have 20 copies of p53 and almost never get cancer. When scientists tried giving extra copies to mice, the key binding result couldn't be reproduced. The transgenic mouse data is a conference abstract. https://enhancement.bio
+
+### VitaDAO / Lifespan.io — Klotho meme
+
+**Image:** `images/klotho_chat_gpt.jpg`
+
+> One copy of Klotho KL-VS variant improves cognition. Two copies make you worse. Seven companies selling it, none has mapped the safe dose window. https://enhancement.bio
+
+### Science and Technology / Biocord — MSTN meme
+
+**Image:** `images/myostatin.jpeg`
+
+> Myostatin knockout: spectacularly jacked mice. Every antibody drug targeting the same pathway in humans failed clinical trials. https://enhancement.bio

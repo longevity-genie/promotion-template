@@ -1,3 +1,9 @@
+---
+image: images/klotho_chat_gpt.jpg
+image_variants:
+  - images/klotho.jpeg
+---
+
 # Klotho Meme — Two Cooks in One Kitchen
 
 ## Concept
@@ -28,13 +34,13 @@ Single-panel scene in a Greek kitchen/hearth. The goddess Klotho has TWO HEADS o
 
 ## Comment to post with the meme
 
-> The gene is named after Klotho, the Greek goddess who spins the thread of life. One copy of the KL-VS variant genuinely improves cognition and is associated with longevity across Japanese, Hawaiian, Italian, German, Chinese, and Danish populations.
+> The gene is named after Klotho, the Greek goddess who spins the thread of life. One copy of the KL-VS variant is associated with better cognition and longevity in several populations.
 >
-> But two copies make you worse than one. Classic overdominance — the same genetic pattern as sickle cell trait. And when Dubal's lab injected Klotho protein into macaques, high doses LOST the cognitive benefit that low doses gave.
+> Two copies are worse than one. That is overdominance: more of the variant is not automatically better. In macaques, Dubal's lab also lost the cognitive benefit at high doses that appeared at lower doses.
 >
-> Nobody has mapped the therapeutic window. Seven companies are already selling it — plasmid DNA, mRNA, AAV, cell therapy, recombinant protein — with Phase 1 trials that are extremely early (NCT07285629, Klothea mRNA Phase 1b).
+> Nobody has mapped the therapeutic window. Several companies are pursuing plasmid DNA, mRNA, AAV, cell therapy or recombinant protein, while the registered human programmes are still very early (including NCT07285629).
 >
-> The goddess who spins your thread of life has a dosing problem, and seven companies are selling thread they can't measure.
+> The goddess who spins your thread of life has a dosing problem, and the field is moving faster than the dose-response data.
 >
 > More on the potential and risks of human enhancement: https://enhancement.bio/
 

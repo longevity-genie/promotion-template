@@ -1,6 +1,11 @@
 ---
 image: anton-evidence-ladder.png
 image_description: Screenshot of a gene page showing the split evidence ratings (mechanism vs intervention), e.g. FOXO3 or Dsup
+published_url: https://www.linkedin.com/feed/update/urn:li:activity:7492943236693581824/
+platform_post_id: urn:li:activity:7492943236693581824
+status: published
+date_sent: 2026-08-11
+share_id: shr-0001
 ---
 
 # LinkedIn - Anton: evidence ladder launch
@@ -33,7 +38,7 @@ Post natively, link in the body. Personal origin story into the project.
 >
 > Earlier this year [Livia Zaharia](https://www.linkedin.com/in/livia-zaharia-4b1425a0/) and I had some free time in Milano, and I found the CODAME "The New Human" art hackathon. The directions that came to mind were cyborgization, mind uploading, and biological enhancement. I chose biological enhancement because my background is in bioinformatics and aging research, so I could check the claims myself. [Newton Winter](https://github.com/winternewt) joined remotely and built most of the web app and RPG interface.
 >
-> We built a character generator. You get 100 credits and 80 real genes from 108 organisms: tardigrade Dsup for radiation resistance, naked mole-rat hyaluronic acid for cancer resistance, elephant multi-copy TP53, axolotl Lin28a for regeneration. The credits exist to force a choice. You cannot afford everything, so you start reading what the evidence actually supports before you spend.
+> We built a character generator. You get 100 credits and 80 real genes from 71 source species: tardigrade Dsup for radiation resistance, naked mole-rat hyaluronic acid for cancer resistance, elephant multi-copy TP53, axolotl Lin28a for regeneration. The credits exist to force a choice. You cannot afford everything, so you start reading what the evidence actually supports before you spend.
 >
 > We rate every claim by how far up the translational ladder it got: cell line, model animal, primate, human trial, market. The same gene carries different ratings for different claims. CAHS D from tardigrades scores high in yeast but only medium in human cells. Melanin scores high for passive radiation shielding and low for the radiosynthesis story. Eight of the therapies in the library are already sold to adults.
 >

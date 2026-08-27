@@ -18,4 +18,13 @@ Fill this in under fifteen minutes from an existing knowledgebase entry.
 >
 > [One line on the cost in the game and why it costs that.]
 >
-> [Gene] is one of 109 in our open knowledgebase: https://enhancement.bio
+> [Gene] is one of 136 in our open knowledgebase: https://enhancement.bio
+
+## Meme illustration (when available)
+
+Five genes have meme images ready in `images/` — see `drafts/genes/PLAN.md` for the full table. When posting a gene that has a meme:
+
+- **Visual-first platforms** (Facebook, Bluesky, Discord): lead with the meme image, keep caption to 2-4 sentences
+- **Text-first platforms** (LinkedIn, Reddit self-post): use the meme as the attached image, write a full post
+- **Telegram**: send the meme as a photo message with a short caption
+- **Science-focused rooms**: prefer a gene page screenshot over the meme — the meme may read as too informal

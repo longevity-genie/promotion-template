@@ -25,13 +25,13 @@ Same playbook as Anton's post:
 
 ## Post
 
-> Every set of gene choices in Materialized Enhancements grows a different sculpture, and none of them were designed by hand.
+> Every set of gene choices in Materialized Enhancements grows a different sculpture. I do not draw the final shape by hand.
 >
 > Protein mass, exon count, hydrophobicity, disorder, isoelectric point - the biophysical properties of the genes you pick become the parameters of a Voronoi shell. Then the shell has to actually print, on a cheap machine, across an enormous combination space, without a human checking each result.
 >
-> That constraint did more for the work than any aesthetic decision. A shape that can fail is a shape you have to understand.
+> Printability became the real design constraint. A shape that can fail is a shape you have to understand before you send it to the printer.
 >
-> This is procedural generation from real biological data, not AI image generation. The algorithm is ours and it is open.
+> The geometry is procedural and the inputs are real biological measurements. There is no image model in the pipeline. The algorithm is open.
 >
 > https://enhancement.bio
 >

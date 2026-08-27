@@ -9,4 +9,4 @@ channel: Anton personal profile
 
 If you know someone working on science communication through constrained choices, pass this example along.
 
-Giving every gene a cost changes how people read. Once Dsup competes with TP53 or Lin28a for a limited budget, the distance between a cell result and a human intervention stops being an abstract caveat.
+There are now 106 playable genes, but the budget is still only 100 credits. Once Dsup competes with TP53 or Lin28a, the distance between a cell result and a human intervention stops being an abstract caveat.

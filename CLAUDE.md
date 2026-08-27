@@ -17,8 +17,11 @@ The same applies to external identifiers. Discover Google Drive folders by title
 
 ## Registry structure
 
-- `registry/destinations.csv` — 77 communities with URLs, sizes, rules, tiers, scheduling and weekend info
-- `registry/platform_rules.csv` — 16 platforms with posting rules, scheduling capability, and weekend behaviour
+- `registry/destinations.csv` — communities with URLs, sizes, rules, tiers, scheduling and weekend info
+- `registry/platform_rules.csv` — platforms with posting rules, scheduling capability, and weekend behaviour
+- `registry/facebook-groups-catalogue.csv` — research inbox for Facebook (not a destination list)
+- `registry/linkedin-groups-catalogue.csv` — research inbox for LinkedIn groups (not a destination list)
+- `registry/telegram-groups-catalogue.csv` — durable inventory of Telegram memberships, linked discussion chats, rules and prior project posts (not a destination list)
 - `registry/pillars.csv` — long-form canonical assets
 - `registry/derivatives.csv` — platform-native posts made from a pillar
 - `registry/shares.csv` — one row per post actually sent, with outcome
@@ -64,6 +67,16 @@ Nothing enters `shares.csv` until it has actually been sent. That table answers 
 
 Read `project/goals.md` before writing any post. The five goals in priority order: play, share builds, contribute, connect with experts, suggest funding. Do not write posts that present the project as a professional knowledgebase or a scientific resource to browse - that framing serves none of the five goals.
 
+## Write as the project team
+
+Posts should sound like Anton, Livia or Newton talking about something they made, not like detached science popularisation, a press release or an external reviewer describing the project. Start from the team's own curiosity and decisions: what interested us, why we made it this way, what exists now and where the work could go next. Use first-person language (`I` or `we`) and concrete project vocabulary. Preserve the speaker's characteristic informal phrasing when it sounds natural; correct grammar without replacing the voice with generic professional prose.
+
+A first-person feature list is still detached. Build the post as a causal story, like a scientist walking a mixed audience through their own poster: what interested us -> why it mattered to us -> what we made -> what exists now -> why we chose the scientific, playful or artistic form -> what readers can do next. Adapt the steps to the post, but make each transition explain why the next part follows. Use ordinary links such as "because", "so", "as a result", "but we also wanted" or their natural equivalent in the post's language.
+
+Before saving any team-authored draft, reduce it to a one-line causal spine and read it paragraph by paragraph. Each paragraph must answer a question or continue a thought raised by the previous one. If the paragraphs can be rearranged without changing the meaning, the draft is a feature list rather than a story and must be rewritten. This check is required even when the grammar and individual sentences already sound natural.
+
+Do not automatically append generic third-person referral lines. A request to contribute or share is optional. When it belongs in the post, put it at the end, write it afresh for that room in the team's voice, and never reuse it as a mechanical sign-off.
+
 ## Varying text
 
 One blurb per room, each genuinely different: different opening line, different fact led with, different sign-off. Never reuse a sentence across two rooms, even in different languages. Identical text across many chats is precisely the pattern that gets a personal Telegram account flagged. When suggesting send times, spread them across a day, hours apart.
@@ -78,10 +91,63 @@ One blurb per room, each genuinely different: different opening line, different 
 - Hacker News is never automated and its text must be written by hand — no LLM, not even for editing.
 - Third-party Discords are manual because bot-token integrations require adding a bot you cannot add.
 - **LinkedIn MCP** — use only official-API tools (OAuth 2.0): `get_my_profile`, `create_post`, `edit_post`, `delete_post`, `get_my_posts`, `get_my_post_analytics`. Never use unofficial/cookie-based tools (`search_people`, `get_profile`, `get_feed`, `send_message`, `search_companies`, etc.) — they rely on scraping and risk account restrictions.
+- **LinkedIn groups have no API at all.** The Groups API was shut down in 2017 and never replaced; `w_member_social` reaches the personal feed and pages you admin, nothing else. No LinkedIn MCP tool and no scheduler (Buffer included) can post into a group, and a company or showcase page cannot post in one either — only a member profile can. Group posts are typed into the group composer by a human or by a browser agent in a logged-in session, one at a time, unscheduled. Treat `platform=linkedin-group` rows the way you treat WhatsApp: draft in advance, send by hand. Details in `registry/linkedin-groups-catalogue.README.md`.
 
 ## Images
 
 Each original LinkedIn post draft has an `image:` field in its frontmatter specifying the expected filename and what to screenshot. Images go next to their draft file (e.g. `drafts/linkedin/showcase/page-01-knowledgebase-launch.png`). Reshare commentary references the source post and does not need separate media. No separate assets folder. Most platforms can reuse the same base screenshots cropped differently.
+
+## Tracker spreadsheet
+
+`scripts/sync_tracker.py` pushes every registry CSV and the live Buffer state
+into one Google Spreadsheet, editing it **in place** through the Sheets API —
+same file, same id, same link on every run. One tab per CSV, plus
+`buffer_channels`, `buffer_queue` and `sync_status`.
+
+```
+uv run --no-project python scripts/sync_tracker.py --dry-run   # report only
+uv run --no-project python scripts/sync_tracker.py             # write
+```
+
+Credentials, both gitignored and never committed:
+
+- `keys/service.json` — Google service account with edit rights on the sheet
+- `.env` — `TRACKER_SHEET_ID` and one `*_BUFFER_API_KEY` per Buffer account
+
+The script discovers accounts by scanning `.env` for `*_BUFFER_API_KEY`, so
+adding a Buffer account is a one-line change with no code edit.
+
+`scripts/style_tracker.py` handles appearance and is deliberately **separate
+and manual** — formatting lives on the cell grid, not on the values, so
+`values.batchClear` leaves it intact and one run keeps working for every later
+sync. Do not fold it into the scheduled job. Re-run it only after adding a tab
+or a column:
+
+```
+uv run --no-project python scripts/style_tracker.py
+```
+
+Two traps it encodes, both found by looking at the rendered sheet rather than
+the API response:
+
+- A fixed row height silently defeats wrapping — the text wraps but the row
+  stays one line tall and you read a clipped sentence. Rows are auto-resized
+  *after* wrap strategies are set.
+- Newlines inside a cell make Sheets grow the row even when the column is
+  clipped, so a post body with a dozen paragraph breaks turns one row into a
+  screenful. `sync_tracker.py` flattens breaks to ` ¶ ` on the way in; the real
+  formatting stays in the CSV.
+
+Post bodies (`text`, `text_sent`, `full_text`) are wide but clipped. Only
+medium prose (`notes`, `self_promo_rule`, and similar) wraps.
+
+`buffer_queue.in_shares_csv` reconciles what Buffer actually sent against
+`shares.csv`. Match is attempted on post id, on permalink, and on the opening of
+the post body — the third pass matters because LinkedIn hands Buffer a
+`urn:li:share` id while the permalink a human copies carries a different
+`urn:li:activity` number for the same post. A `NO - not logged` row means
+something went out and was never recorded. Investigate it; never backfill
+`shares.csv` automatically, because a wrong row there is worse than a gap.
 
 ## After changing the registry
 

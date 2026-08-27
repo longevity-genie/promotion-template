@@ -1,3 +1,10 @@
+---
+image: images/dsup2_chat_gpt.jpg
+image_variants:
+  - images/dSup_meme.jpeg
+  - images/dSup_meme_geminie_2.jpeg
+---
+
 # Dsup Meme — Be Careful What You Wish For
 
 ## Concept
@@ -25,7 +32,7 @@ Before/after. Astronaut asks evil genie for radiation resistance like a tardigra
 
 ## Comment to post with the meme
 
-> Before you ask — yes, the "dead brain" is a creative exaggeration. The actual experiment was in cultured rat cortical neurons (in vitro, not a whole brain). But the result is real: Dsup promoted double-strand DNA breaks, condensed chromatin, and killed the neurons — the opposite of what it does in every other cell type tested. Nobody knows why yet.
+> The dead brain is a joke. The experiment was in cultured rat cortical neurons, not a whole animal. The result itself is real: Dsup promoted double-strand DNA breaks, condensed chromatin and cell death. That is the opposite of its effect in the other cell types tested, and we do not yet know why.
 >
 > Paper: Escarcega et al. (2023), *Molecular and Cellular Neurosciences* — https://doi.org/10.1016/j.mcn.2023.103826
 

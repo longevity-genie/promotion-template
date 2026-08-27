@@ -6,6 +6,13 @@
 - [ ] Make sure the neuron contradiction row is visible in the screenshot
 - [ ] Crop to 1200x627 for LinkedIn
 
+## Meme images (READY)
+
+- [x] Meme concept drafted (`meme.md`)
+- [x] `images/dsup2_chat_gpt.jpg` — ChatGPT version, best quality, portrait
+- [x] `images/dSup_meme.jpeg` — simpler style, portrait
+- [x] `images/dSup_meme_geminie_2.jpeg` — Gemini version, portrait
+
 ## Pre-posting
 
 - [ ] Verify Kirtane 2025 Nat Biomed Eng DOI resolves correctly
@@ -15,7 +22,9 @@
 
 ## Platform variants
 
-- [x] LinkedIn draft
-- [ ] Reddit draft (r/transhumanism, r/bioinformatics, r/genetics - vary text per sub)
-- [ ] Telegram draft (English longevity groups)
-- [ ] Bluesky draft
+- [x] LinkedIn draft (`linkedin.md`)
+- [ ] Reddit draft (r/transhumanism, r/bioinformatics — vary text per sub)
+- [ ] Telegram draft (English longevity groups + Russian groups)
+- [ ] Bluesky draft (meme image + under 300 chars)
+- [ ] Facebook draft (meme + 2-3 sentence caption)
+- [ ] Discord draft (#showcase channels)

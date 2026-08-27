@@ -9,4 +9,4 @@ channel: Anton personal profile
 
 Please share this with a computational designer who would have opinions about the biological-to-geometric mapping.
 
-I approached the project through evidence, while Livia made the selected proteins physically legible. Molecular weight, exon count, hydropathy, and disorder become constraints on a printable form rather than decorative biological labels.
+I came to the project through the evidence. Livia made the selected proteins physically legible: molecular weight, exon count, hydropathy and disorder become constraints on a printable form, not decorative labels.

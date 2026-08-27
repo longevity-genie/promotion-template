@@ -13,20 +13,16 @@ The character generator as a science communication mechanism. Not "we made a gam
 
 ## Post
 
-Most science databases get two kinds of visitors: specialists who already know what they are looking for, and everyone else who bounces after 30 seconds.
+Most science databases assume that you arrive with a question. We wanted to see what happens when the interface gives you a decision instead.
 
-We wanted to change that, so we built a character generator.
-
-You pick a nickname, get 100 enhancement credits, and face a library of 80 real genes from 108 organisms: tardigrade radiation resistance, naked mole-rat cancer resistance, axolotl regeneration, elephant tumour suppression. Each gene has a cost based on how broad and strong its evidence is.
+You pick a nickname, get 100 enhancement credits, and choose from 106 playable genes drawn from 72 source species: tardigrade radiation resistance, naked-mole-rat cancer resistance, axolotl regeneration and elephant tumour suppression. Each gene has a cost based on the evidence recorded for it.
 
 But 100 credits is not enough to take everything, which means you have to start reading.
 
-Which matters more to you, radiation resistance or cancer immunity? The evidence for Dsup is strong in human cells but showed toxicity in nerve cells. Naked mole-rat HAS2 made it all the way to a mouse lifespan study. FOXO3 has the strongest human longevity association ever found. That kind of detail changes your decision.
+Radiation resistance or cancer resistance? Dsup looks protective in human kidney cells and harmful in rat cortical neurons. HAS2 has reached a mouse lifespan study. FOXO3 has a strong human association but almost no direct enhancement evidence. Those details change the choice.
 
 Your gene choices do not produce a quiz score. They procedurally generate a unique 3D-printable sculpture from the biophysical properties of the genes you picked. Molecular weight, exon count, hydropathy become geometry. Every build is different and downloadable as an STL.
 
-We have seen visitors spend 20 minutes on builds that would be 2-minute bounces in a standard database interface.
-
-Try it: https://enhancement.bio
+Try it and see what you spend the credits on: https://enhancement.bio
 
 #SciComm #OpenScience #Genomics #gamification #creativecoding

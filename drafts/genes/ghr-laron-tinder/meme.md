@@ -1,3 +1,7 @@
+---
+image: images/ghr_therapy.jpg
+---
+
 # GHR Meme — The Daily Struggle
 
 ## Concept
@@ -32,11 +36,11 @@
 
 ## Comment to post with the meme
 
-> Laron syndrome is caused by mutations in the growth hormone receptor gene (GHR). A 22-year prospective study of 90 affected individuals vs 1,606 controls found something extraordinary: ZERO cases of diabetes. Cancer essentially absent as a cause of death. Fewer arterial plaques despite elevated LDL.
+> Laron syndrome is caused by mutations in the growth hormone receptor gene. In a 22-year prospective study, 90 affected people had no cases of diabetes, and cancer was not a cause of death. They also had fewer arterial plaques despite elevated LDL.
 >
-> The cost? Minus 35cm of adult height and minus 26kg of weight. And here is the part nobody puts in the headline: the disease protection did NOT extend lifespan. 70% of deaths in the cohort were non-age-related — convulsive disorders, alcohol-related, accidents. Vascular disease killed them at the same rate as their unaffected relatives (30% vs 33%).
+> The cost was about 35 cm of adult height and 26 kg of weight. The protection did not extend lifespan. Seventy percent of deaths in the cohort were unrelated to ageing - convulsive disorders, alcohol and accidents. Vascular disease killed affected people at about the same rate as their relatives, 30% versus 33%.
 >
-> You get perfect metabolic protection and zero cancer — but it doesn't matter if the other causes of death fill the gap. And there is no known way to reproduce this phenotype in an adult body. Pegvisomant (a GH receptor antagonist) exists but has never been tested for prevention.
+> The phenotype protects against some diseases, not against death in general. There is also no known way to reproduce it in an adult body. Pegvisomant exists as a growth-hormone antagonist, but it has not been tested for prevention.
 >
 > The meme version: you can dodge cancer and diabetes, or you can pass the Tinder height filter. Pick one.
 >

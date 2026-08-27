@@ -3,4 +3,4 @@ variant: 10
 angle: clinical trials / scale
 ---
 
-729 registered clinical trials, 850 references, 109 genes from 108 organisms - and 8 therapies already sold to adults. We collected everything we could find about human enhancement and rated the evidence honestly. Open-source, built with @Livia Zaharia, @Newton Winter, and others.
+The current library has 751 registered clinical trials, 973 DOI-linked references, and 136 genes from 72 source species. We kept the evidence next to the claim, including the cases where a promising result failed in another tissue or never left a mouse. Open source, built with @Livia Zaharia, @Newton Winter and others: https://enhancement.bio

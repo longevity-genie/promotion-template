@@ -3,4 +3,4 @@ variant: 4
 angle: evidence quality
 ---
 
-People talk about enhancement genes but nobody collected where the evidence actually stands. Cells? Animals? Humans? Already sold? We built that - 109 genes, 1,023 experiments, every one rated honestly. Open-source, made with @Livia Zaharia, @Newton Winter, and others.
+People talk about enhancement genes as if the answer were simply yes or no. We wanted to know where each claim actually stands: cells, animals, humans or an approved therapy. The result is 136 genes and 1,134 experimental records, open source at https://enhancement.bio.

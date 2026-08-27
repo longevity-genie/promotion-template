@@ -9,4 +9,4 @@ channel: Anton personal profile
 
 If you know a comparative biologist or translational geneticist who would challenge these ratings, please pass this to them.
 
-The part I care about most is not the number of genes. It is recording exactly where each claim stops: cells, animals, primates, humans, or market. An unflattering rating is useful if it prevents a plausible story from being mistaken for evidence.
+The number is now 136, but the part I care about is still the same: recording where each claim stops. An unflattering rating is useful when it keeps a plausible story from being mistaken for evidence.

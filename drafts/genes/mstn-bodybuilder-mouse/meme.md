@@ -1,3 +1,7 @@
+---
+image: images/myostatin.jpeg
+---
+
 # MSTN Meme — Humans Are Not Mice
 
 ## Concept
@@ -35,9 +39,9 @@ The most relatable version: every teenager who ever Googled "how to get jacked f
 
 ## Post caption / comment
 
-Myostatin knockout produces the most visually dramatic phenotype in genetics. Belgian Blue cattle: double-muscled. Bully whippets: ripped. One human child (Schuelke et al. 2004, NEJM): visibly muscular at birth, doing standing broad jumps by age 4.
+Myostatin knockout produces one of the most visible phenotypes in genetics. Belgian Blue cattle are double-muscled. Some whippets develop the same look. One child with a myostatin mutation was unusually muscular from birth (Schuelke et al. 2004, NEJM).
 
-The biology is unambiguous. Remove myostatin → muscles grow. It works in every species tested.
+The animal biology is clear: remove myostatin and muscle grows.
 
 So pharma did the obvious thing: make antibodies that block myostatin in humans.
 
@@ -47,13 +51,13 @@ Results:
 
 2. Domagrozumab (Pfizer): Phase 2 in Duchenne boys. TERMINATED. No efficacy signal. (NCT02310763, NCT02907619)
 
-Nothing went wrong. Nothing happened at all.
+The drugs did not reproduce the knockout phenotype in adults.
 
-The gap: in animals, you knock out the gene entirely from conception. Every cell develops without myostatin from day one. In a drug trial, you partially block the protein in an adult body that has already developed with myostatin present for decades. These are not the same intervention.
+The gap is developmental. An animal knockout lacks myostatin from conception. A drug partially blocks the protein in an adult body that developed with it for decades. Those are different interventions.
 
 Add to that: myostatin KO shifts muscle fiber composition toward Type IIB (fast/glycolytic) at the expense of Type I (slow/oxidative). Even if it worked, you'd gain power but lose endurance. And nobody has characterized what happens to tendons, ligaments, and the heart under chronically hyper-muscular loads.
 
-Humans are not mice. The buff mouse in the mirror is real. Your reflection just doesn't change.
+Humans are not mice. The buff reflection is real in the animal data; the adult human trial did not produce it.
 
 More on the potential and risks of human enhancement: https://enhancement.bio/
 

@@ -3,4 +3,4 @@ variant: 12
 angle: AI assistant integration
 ---
 
-Every gene page has "Ask GPT" and "Ask Claude" buttons - pick any enhancement gene and get the science explained in plain language, right there. Behind it is a knowledgebase of 109 genes with real evidence ratings. Open-source, built with @Livia Zaharia, @Newton Winter, and others.
+Every gene page has "Ask GPT" and "Ask Claude" buttons. Pick an entry, read the rating, then ask about the mechanism, the experiments or the gap. The assistants are grounded in a knowledgebase of 136 genes, 1,134 experimental records and 973 DOI-linked references. Try it here: https://enhancement.bio

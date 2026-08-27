@@ -54,6 +54,16 @@ Per-platform constraints. One row per platform; `destinations.platform` referenc
 
 ---
 
+## `telegram-groups-catalogue.csv`
+
+The durable Telegram research inventory. It contains candidate rooms, linked
+channel/discussion pairs, previous project posts and rejected rooms. It is not
+a destination list: only `destinations.csv` rows with `status=active` may be
+selected for a draft. Column definitions and the inventory method are in
+`registry/telegram-groups-catalogue.README.md`.
+
+---
+
 ## `pillars.csv`
 
 Long-form canonical assets. One or two a month at most.

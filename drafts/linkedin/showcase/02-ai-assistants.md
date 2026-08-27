@@ -13,15 +13,15 @@ Feature highlight. The "Ask GPT" and "Ask Claude" buttons on gene pages and in t
 
 ## Post
 
-Every gene page in the Materialized Enhancements knowledgebase now has "Ask GPT" and "Ask Claude" buttons, on individual gene entries and in the general build view.
+Every gene page in Materialized Enhancements now has an "Ask GPT" button and an "Ask Claude" button. The same controls are available from the build view.
 
-You read our evidence rating for a gene, and if you want to dig deeper (question the rating, check what trials are running) you ask right there, with the gene's context already loaded.
+Read the rating first, then ask a question without leaving the page. The prompt carries the gene record with it, so you can ask about the mechanism, the experiments, the trials, or the gap between a promising result and a usable intervention.
 
-The knowledgebase has 109 genes with split ratings (mechanism confidence vs intervention confidence), 1,023 catalogued experiments, and 850 DOI-linked references. Both models get that context when you ask.
+The knowledgebase has 136 genes, 1,134 experimental records and 973 DOI-linked references. Ratings still split mechanism confidence from intervention confidence, and that is the context the assistants receive.
 
 A researcher checking whether our FOXO3 rating is fair can ask Claude to pull the longevity-association studies we cited and the ones we missed. A student exploring tardigrade Dsup can ask GPT what the nerve-cell toxicity results mean for any human application.
 
-Try it on any gene: https://enhancement.bio
+Try it on any gene. Ask the assistant where our FOXO3 evidence stops, or why Dsup looks protective in kidney cells and harmful in rat neurons: https://enhancement.bio
 
 The knowledgebase and code are open: https://github.com/longevity-genie/materialized-enhancements
 

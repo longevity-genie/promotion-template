@@ -14,7 +14,8 @@ Each subfolder holds per-platform drafts for one gene with a shareable angle. Th
 | **Sold?** | No (Kunieda lab preclinical, U Tokyo) |
 | **Evidence** | T5-T6 |
 | **Meme** | Evil genie: astronaut gets radiation-proof body, dead brain |
-| **Status** | **drafted** (LinkedIn + meme) |
+| **Images** | `images/dsup2_chat_gpt.jpg` (best), `images/dSup_meme.jpeg`, `images/dSup_meme_geminie_2.jpeg` |
+| **Status** | **drafted** (LinkedIn + meme + images ready) |
 
 ### FOXO3 - "The emperor has no mouse data"
 
@@ -50,7 +51,8 @@ Each subfolder holds per-platform drafts for one gene with a shareable angle. Th
 | **Sold?** | Yes - 7 orgs (Minicircle plasmid, Klothea mRNA, Klotho Neurosciences AAV, Avai Bio cell therapy, Jocasta protein, Klothon, Kuro-o lab) |
 | **Evidence** | T7 (human association) + T5 (mouse lifespan) + T5 (primate cognition) |
 | **Meme** | Two-headed goddess in a Greek kitchen: "One Klotho makes you smart. Two? Two cooks in one kitchen." |
-| **Status** | **drafted** (meme) |
+| **Images** | `images/klotho_chat_gpt.jpg` (best), `images/klotho.jpeg` |
+| **Status** | **drafted** (meme + images ready) |
 
 ### TERT (telomerase) - "$2.5 million, zero peer review"
 
@@ -74,7 +76,8 @@ Each subfolder holds per-platform drafts for one gene with a shareable angle. Th
 | **Sold?** | No |
 | **Evidence** | T7 |
 | **Meme** | Two Buttons: "Zero cancer, zero diabetes" vs Tinder ">180cm" — sweating GHR gene therapy |
-| **Status** | **drafted** (meme) |
+| **Images** | `images/ghr_therapy.jpg` |
+| **Status** | **drafted** (meme + images ready) |
 
 ### TP53 (elephant) - "Peto's paradox meets the replication crisis"
 
@@ -86,7 +89,8 @@ Each subfolder holds per-platform drafts for one gene with a shareable angle. Th
 | **Sold?** | No (Peel Therapeutics preclinical) |
 | **Evidence** | T5 (abstract-only Tg mouse) + T4 (3T3-L1 cells) + T6 (RTG9 cancer lines) |
 | **Meme** | "Just add more p53!" → can't reproduce the binding, Tg mouse data not even peer-reviewed |
-| **Status** | **drafted** (meme) |
+| **Images** | `images/elephant_meme.jpeg` |
+| **Status** | **drafted** (meme + images ready) |
 
 ### HAS2 (naked mole-rat) - "The cancer shield that promotes cancer"
 
@@ -204,8 +208,9 @@ Each subfolder holds per-platform drafts for one gene with a shareable angle. Th
 | **CON** | EVERY antibody drug FAILED. Stamulumab/MYO-029: disappointing Phase 2 in adult muscular dystrophy (NCT00104078). Domagrozumab: Phase 2 TERMINATED in Duchenne boys (NCT02310763 + NCT02907619). CRISPR in primates showed mosaicism. Fiber type shift to Type IIB (fast glycolytic) at expense of Type I (slow oxidative) - power gains at endurance cost (Hennebry 2009). Nobody knows tendon/ligament/heart effects under hyper-muscular loads |
 | **Sold?** | No (academic preclinical) |
 | **Evidence** | T6 |
-| **Meme** | Buff KO mouse flexing in a mirror — Duchenne boy in a wheelchair sees the mouse reflected instead of himself, pile of failed drug bottles at his feet |
-| **Status** | **drafted** (meme) |
+| **Meme** | Buff KO mouse flexing in a mirror — skinny teen sees jacked mouse in reflection |
+| **Images** | `images/myostatin.jpeg` |
+| **Status** | **drafted** (meme + images ready) |
 
 ### CPD photolyase - "The UV repair gene mammals threw away"
 
@@ -244,11 +249,30 @@ Score 8+ and it belongs in Tier 1. Best next candidates after Dsup: FOXO3 (the e
 ## Reuse chain
 
 1. Write the LinkedIn version first (longest, most detail)
-2. Create meme (ChatGPT image prompt in meme.md)
+2. Create meme (ChatGPT image prompt in meme.md) — **done for Dsup, TP53, Klotho, MSTN, GHR**
 3. Adapt for Reddit (self-post, different opening, subreddit-specific framing)
 4. Telegram (shorter, warm-room register)
 5. Bluesky (visual hook, under 300 chars + thread)
 6. Facebook (meme + short caption)
+
+## Meme image usage by platform
+
+All 5 Tier 1 drafted genes have meme images in `images/`. Best image per gene:
+
+| Gene | Best image | Aspect | Best platforms |
+|---|---|---|---|
+| Dsup | `dsup2_chat_gpt.jpg` | portrait | Facebook, Bluesky, Telegram, Reddit |
+| TP53 | `elephant_meme.jpeg` | landscape | LinkedIn, Facebook, Reddit, Discord |
+| Klotho | `klotho_chat_gpt.jpg` | portrait | Facebook, Bluesky, Telegram |
+| MSTN | `myostatin.jpeg` | landscape | LinkedIn, Facebook, Reddit, Discord |
+| GHR | `ghr_therapy.jpg` | portrait | Facebook, Bluesky, Telegram, Reddit |
+
+- **LinkedIn gene posts:** use meme as the image (memes perform well on LinkedIn feed)
+- **Facebook groups:** meme + 2-3 sentence caption is the native format
+- **Bluesky:** meme image + under 300 chars — the meme carries the hook
+- **Telegram:** meme as image with short caption, or text-only for science groups
+- **Reddit:** include meme where subreddit allows images (r/transhumanism yes, r/bioinformatics text-only)
+- **Discord #showcase:** meme image with brief context
 
 ## Cadence
 

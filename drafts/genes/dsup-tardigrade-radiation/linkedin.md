@@ -1,6 +1,7 @@
 ---
 image: dsup-gene-page.png
-image_description: Screenshot of the Dsup gene page on enhancement.bio showing split evidence ratings across tissues
+image_alt: images/dsup2_chat_gpt.jpg
+image_description: Screenshot of the Dsup gene page on enhancement.bio showing split evidence ratings across tissues. Alternative: Dsup evil genie meme (astronaut gets radiation-proof body but brain errors out)
 ---
 
 # LinkedIn - Dsup: the tardigrade gene that works until it doesn't
@@ -29,17 +30,17 @@ Post from the showcase page. Then reshare from the Longevity Genie company page 
 
 Post natively, link in the body. Lead with the pop-culture hook, land on the evidence gap.
 
-> If you have thoughts on tissue-specific gene transfer or know someone working on targeted Dsup delivery, we would like to hear from you.
+> If you work on tissue-specific gene transfer or targeted Dsup delivery, I would like to hear where you think this rating is wrong.
 >
-> Star Trek Discovery built a season around a tardigrade. Harbinger Down made a horror film about Soviet cosmonauts engineered with tardigrade DNA for radiation resistance. At this point most people know tardigrades survive conditions that would kill everything else.
+> Star Trek Discovery built a season around a tardigrade. Harbinger Down made a horror film out of Soviet cosmonauts engineered with tardigrade DNA. The real organism is less tidy than either story.
 >
-> So you would expect their genes to transfer cleanly to human cells. And Dsup - damage suppressor - mostly does. It halves single-strand DNA breaks in human kidney cells at 10 Gy X-ray. It works in hamster cells, C. elegans, Drosophila, yeast, rice, and tobacco. Earlier this year a team delivered Dsup mRNA via lipid nanoparticles to mouse tissue during radiotherapy - it reduced DNA damage in healthy cells while preserving tumor kill (Kirtane 2025, Nature Biomedical Engineering).
+> Dsup, the tardigrade damage-suppressor protein, does protect some human cells. At 10 Gy of X-ray it halves single-strand DNA breaks in human kidney cells. It has also been tested in hamster cells, C. elegans, Drosophila, yeast, rice and tobacco. A 2025 study delivered Dsup mRNA in lipid nanoparticles to mouse tissue during radiotherapy and reduced DNA damage in healthy cells while preserving tumour killing (Kirtane, Nature Biomedical Engineering).
 >
-> Then you read the next row in the table. In rat cortical neurons, Dsup promoted double-strand breaks, condensed chromatin, and killed the cells. Same gene. Opposite result. The bodyguard went rogue in the brain.
+> Then comes the row that changes the story. In rat cortical neurons, Dsup promoted double-strand breaks, condensed chromatin and killed cells. Same gene, opposite result. The bodyguard went rogue in the brain.
 >
-> This is not a failure of the gene. It is a failure of the assumption that one score tells you anything. Dsup protects some cell types and damages others, and nobody yet knows why the mechanism reverses in neurons. We rate it separately for each tissue and each claim. The unflattering entry is more useful than a clean average.
+> The problem is the assumption that one score can describe a gene. Dsup protects some cell types and damages others, and nobody knows why the mechanism reverses in neurons. We rate it separately by tissue and claim. The unpleasant result is the useful one.
 >
-> 109 genes, 1,023 experiments, 850 DOI-linked references. The knowledgebase, the game, and the code are open.
+> 136 genes, 1,134 experimental records, 973 DOI-linked references. The knowledgebase, character generator and code are open.
 >
 > https://enhancement.bio
 > https://github.com/longevity-genie/materialized-enhancements

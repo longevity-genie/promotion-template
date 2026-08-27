@@ -26,7 +26,7 @@ Four things about your situation make this work:
 
 **You have institutional leverage almost nobody in bioart has.** Anton is at Uni Rostock. That unlocks two doors that are closed to independents: the Uni press office, which feeds **idw-online** (individuals categorically cannot post there, and idw is what German science desks and NDR actually read), and **The Conversation**, which commissions only academics writing in their own field and gets republished very widely. Neither costs money. Both are single emails.
 
-**The knowledgebase is a better asset than the game.** 109 genes, 80 playable, 1,023 catalogued experiments, 108 source organisms, 8 already-commercial therapies, each rated by how far up the translational ladder the evidence actually got. That is a citable resource. Science venues that will delete a "check out my game" post will happily host "here is a curated database of comparative-biology enhancement evidence." The game is the door; the knowledgebase is the reason serious people stay. **Lead with whichever one the room rewards** - this is the single most important tactical rule in the document.
+**The knowledgebase is a better asset than the game.** 136 genes, 106 playable, 1,134 catalogued experiments, 72 source species, and 973 DOI-linked references, each rated by how far the evidence actually got. That is a citable resource. Science venues that will delete a "check out my game" post will happily host "here is a curated database of comparative-biology enhancement evidence." The game is the door; the knowledgebase is the reason serious people stay. **Lead with whichever one the room rewards** - this is the single most important tactical rule in the document.
 
 **You now have "Ask GPT" and "Ask Claude" buttons on gene pages and in the general build.** This turns every gene entry into an interactive research starting point. For science and bioinformatics audiences, this is a genuine feature worth leading with: an evidence-rated knowledgebase where you can immediately interrogate the science behind each gene using AI assistants.
 
@@ -44,8 +44,8 @@ Four things about your situation make this work:
 1. **Never call the sculpture AI-generated.** Say *algorithmically* or *procedurally generated from real gene data*. This is not stylistic. r/generative, r/creativecoding, r/proceduralgeneration, r/InternetIsBeautiful, r/SyntheticBiology, Bluesky's two largest art feeds, Colossal and Habr's sandbox all exclude AI-generated work by written rule. One careless word disqualifies you from most of your best surfaces at once.
 2. **Do not use an LLM to write anything you post on Hacker News.** HN's moderator updated the canonical Show HN guidance in March 2026 with exactly this: *"Write your text by hand. Don't use an LLM to generate any of it (not even a tiny bit, including to edit or spruce it up)... this is a big dividing line at present."* The Show HN brief in the copy pack is therefore a list of facts and a structure, not finished prose. Write it yourself.
 3. **Read the room's rules before posting, every time.** Most science subreddits and several Discords ban promotion with bans, not warnings. Section 5 marks which. Budget one minute per room.
-4. **One ask per message, stated in the first two lines.** Buried asks get ignored.
-5. **Always include a forward request.** "If someone you know would find this useful, please pass it on" costs one line and is the only free multiplier that works reliably.
+4. **Write from inside the project.** Posts should sound like a member of the team explaining their own poster to a mixed audience. Use a causal sequence: what interested us -> why it mattered -> what we built -> what exists now -> why the interactive or artistic form follows. A first-person feature list is still detached.
+5. **Do not append stock referral requests.** Use at most one clear ask. When inviting people to contribute or share, put it at the end, phrase it naturally for that room and omit it when it feels forced.
 
 ---
 
@@ -58,7 +58,7 @@ Four things about your situation make this work:
 | 1 | **GitHub link on the homepage and `/knowledgebase`.** | DONE | GitHub link added to the site. README links corrected to `longevity-genie` org path. |
 | 2 | **Make the repo contributor-ready.** Contribution instructions and good-first-issue labels. | DONE | Contribution info added. |
 | 3 | **No signup wall on the core loop.** | DONE | Only a nickname is required - no email, no account, no personal information. This is fine for Show HN, r/InternetIsBeautiful, and all other venues. |
-| 4 | **Reconcile the public numbers.** | DONE | The gene numbers on the website and README are now consistent. Standing facts: 109 catalogued, 80 playable. |
+| 4 | **Reconcile the public numbers.** | DONE | The current app README and database now agree: 136 catalogued, 106 playable, 72 source species, 1,134 evidence records, 973 DOI-linked references, 751 registered trials, and 109 organisations. |
 | 5 | **Print one sculpture and photograph it properly.** Neutral background, natural light, in-hand shot for scale, plus one on a plinth. Export at **3000 px minimum** on the long edge. | STILL NEEDED | This single asset unlocks r/3Dprinting (which bans render-only posts by written rule), Colossal (which will not cover work without images of individual physical works), Dezeen (needs 3000 px jpegs), and every gallery and residency application. Livia's wearing-the-model video already helps here; still photographs are what editors need. |
 
 ---
@@ -69,11 +69,11 @@ You make **one thing per week**, in about 40 minutes. It is then posted to diffe
 
 Rotate four formats:
 
-**A. Gene of the week** (your cheapest and best format). Pick one gene. Two paragraphs: the extraordinary thing the organism does, then what the evidence actually supports and where it stops. Use the split rating honestly - "high confidence in mice, nobody has done it in a primate" is a *better* hook than a clean claim, because it is a story with tension. You have 109 of these already written in the knowledgebase, so this format is mostly copy, trim and add a hook.
+**A. Gene of the week** (your cheapest and best format). Pick one gene. Two paragraphs: the extraordinary thing the organism does, then what the evidence actually supports and where it stops. Use the split rating honestly - "high confidence in mice, nobody has done it in a primate" is a *better* hook than a clean claim, because it is a story with tension. You have 136 of these already written in the knowledgebase, so this format is mostly copy, trim and add a hook.
 
 **B. The object.** A photograph or short loop of a printed sculpture, or Livia wearing one, or the folding-protein print. Say which genes produced that particular shape. This is what travels on visual platforms and it is the only format that gets you into design press.
 
-**C. A number from the knowledgebase.** "Of 109 genes we catalogued, 8 are already sold to adults today." "1,023 experiments, and here is how many made it past mice." This is the format that earns respect from scientists and is the seed of the one genuinely high-ceiling Reddit post (r/dataisbeautiful, Mondays only for personal data, needs a real chart).
+**C. A number from the knowledgebase.** "Of 136 genes we catalogued, some already have approved target therapies." "1,134 experiments, and here is how many made it past mice." This is the format that earns respect from scientists and is the seed of the one genuinely high-ceiling Reddit post (r/dataisbeautiful, Mondays only for personal data, needs a real chart).
 
 **D. How it was built.** How gene parameters drive the Voronoi mesh; how you kept it printable on weak machines across a huge combination space; how you designed the credit costs so the budget forces real choices. This is the format for Hacker News, three.js, Grasshopper, Habr and Creative Applications - and it is the one that reaches other builders, who are your likeliest contributors.
 

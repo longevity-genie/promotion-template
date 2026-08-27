@@ -22,17 +22,17 @@ Split outreach into 2-3 touches over 5-7 days, each with a different angle. What
 
 > We finally put our enhancement project online: https://enhancement.bio
 >
-> You get 100 credits and 80 real genes from 108 organisms - tardigrade radiation shielding, naked mole-rat cancer resistance, elephant TP53, axolotl regeneration - and you cannot afford everything, so you end up reading the evidence. Your choices then grow a unique printable Voronoi sculpture from the biophysical properties of the genes you picked.
+> You get 100 credits and 106 playable genes from 72 source species - tardigrade radiation shielding, naked-mole-rat cancer resistance, elephant TP53 and axolotl regeneration. You cannot afford everything, so the evidence matters before you spend. Your choices then grow a printable Voronoi sculpture from the proteins you picked.
 
 ### Touch 2 - the evidence angle (day 3-4)
 
-> One thing from our enhancement project that surprised people at Milano Design Week: we rate every gene by how far the evidence actually got, not works/doesn't. FOXO3 is the strongest human longevity gene, and nobody has ever put it in a mammal. Tardigrade CAHS D is high confidence in yeast, medium in human cells. Eight of the therapies are already sold to adults.
+> One thing from the project that surprised people at Milano Design Week: we do not reduce a gene to works or does not work. FOXO3 has a strong human longevity association, but very little direct enhancement evidence. Tardigrade CAHS D looks strong in yeast and weaker in human cells.
 >
-> The knowledgebase behind it (109 genes, 1,023 experiments) is open and citable: https://enhancement.bio
+> The knowledgebase behind it now has 136 genes and 1,134 experimental records. It is open and citable: https://enhancement.bio
 
 ### Touch 3 - the ask (day 6-7)
 
-> If you know a curator, an educator or a researcher who would use our open enhancement knowledgebase (109 genes, 1,023 experiments, evidence-rated), please pass it on: https://enhancement.bio
+> If you know a curator, educator or researcher who would use an evidence-rated knowledgebase of 136 genes and 1,134 experiments, please pass it on: https://enhancement.bio
 >
 > We are also looking for corrections - if you spot a rating you think is wrong, that is more useful to us than traffic.
 
@@ -44,18 +44,18 @@ Split outreach into 2-3 touches over 5-7 days, each with a different angle. What
 
 > Am publicat proiectul la care lucram de ceva vreme: https://enhancement.bio
 >
-> Primesti 100 de credite si 80 de gene reale din 108 organisme - Dsup de la tardigrad, acid hialuronic de la cartita golasa, TP53 de la elefant, Lin28a de la axolotl. Nu iti ajung creditele pentru tot, asa ca ajungi sa citesti ce spun dovezile.
+> Primesti 100 de credite si 106 gene jucabile din 72 de specii - Dsup de la tardigrad, acid hialuronic de la cartita golasa, TP53 de la elefant, Lin28a de la axolotl. Creditele nu ajung pentru tot, asa ca citesti dovezile inainte sa alegi.
 
 ### Touch 2 - the sculpture and design angle (day 3-4)
 
 > Alegerile tale de gene in proiectul nostru genereaza o sculptura Voronoi unica, printabila 3D, calculata din proprietatile biofizice ale genelor alese. A avut premiera la Milano Design Week.
 >
-> In spate e o baza de cunostinte deschisa: 109 gene, 1.023 de experimente, fiecare notat dupa cat de departe a ajuns dovada pe scara translationala. Opt dintre terapii se vand deja astazi.
+> In spate este o baza de cunostinte deschisa: 136 de gene si 1.134 de experimente, fiecare notat dupa cat de departe a ajuns dovada pe scara translationala.
 >
 > https://enhancement.bio
 
 ### Touch 3 - the ask (day 6-7)
 
-> Daca cunoasteti pe cineva din cercetare sau educatie caruia i-ar fi utila baza noastra deschisa de gene legate de imbunatatirea umana, dati mai departe: https://enhancement.bio
+> Daca stiti pe cineva din cercetare sau educatie caruia i-ar fi utila baza noastra deschisa despre gene legate de imbunatatirea umana, dati mai departe: https://enhancement.bio
 >
 > Cautam si corectii - daca vreo evaluare vi se pare gresita, ne intereseaza mai mult decat traficul.

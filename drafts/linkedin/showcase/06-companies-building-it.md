@@ -1,6 +1,6 @@
 ---
 image: page-06-companies-building-it.png
-image_description: Screenshot of the knowledgebase filtered to show genes with market or clinical-trial status, or a simple table/infographic of the 8 marketed therapies
+image_description: Screenshot of the knowledgebase filtered to show genes with market or clinical-trial status, or a simple table/infographic of the approved and marketed target therapies
 ---
 
 # Page post 6: The companies already building these therapies
@@ -42,7 +42,7 @@ Find and verify the LinkedIn company pages for each tagged organization. Some ma
 
 ## Post
 
-Eight therapies in our knowledgebase are already sold to adults, and dozens more are in clinical trials. Across the 109 genes we catalogued:
+Some target therapies in our knowledgebase are already approved or marketed, and many more are in clinical trials. Across the 136 genes we catalogue:
 
 **Already on the market**
 - Ionis Pharmaceuticals sells Tryngolza, an APOC3 knockdown, FDA-approved
@@ -67,10 +67,10 @@ Eight therapies in our knowledgebase are already sold to adults, and dozens more
 - Jocasta Neuroscience raised $35M for alpha-Klotho protein therapy for cognitive decline
 - Rejuvenate Bio is testing FGF21 + sTGFbR2 combination gene therapy in dogs at Tufts
 
-Every one of these companies targets a gene in our open knowledgebase. We rate the evidence for each, where it holds up and where the experiment that would settle things has not been done.
+Every one of these programmes maps to a gene in our open knowledgebase. We record what was actually tested, which modality was used, and where the evidence still stops. A marketed product is not a shortcut to a stronger rating, and a trial of one modality does not validate every claim about the gene.
 
 Browse the full list: https://enhancement.bio
 
-If your organization works on any of these genes and we got something wrong, we want to know.
+If your organisation works on one of these genes and we got something wrong, please tell us.
 
 #Genomics #longevity #OpenScience #GeneTherapy #Biotech #SciComm

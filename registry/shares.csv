@@ -1,1 +1,79 @@
 share_id,dest_id,deriv_id,pillar_id,sender,language,date_sent,status,text_sent,link_used,utm_source,utm_medium,utm_campaign,utm_content,platform_msg_id,permalink,boost_asked_who,boost_asked_date,measure_after,reactions,comments,clicks,outcome,notes
+shr-0001,li-anton,,,anton,en,2026-08-11,sent,"Other species can do things humans cannot. If you are curious what their genes might teach us about enhancing ourselves, try what we built, challenge our ratings, and pass it to someone who would care.
+
+It seems obvious to me that advances in science and technology should be used to enhance humans. For years I kept waiting for someone to make a start: a shared knowledgebase of what other species could teach us about genetically enhancing humans, which the rest of us could check, correct, and extend. I never found one.
+
+Earlier this year [Livia Zaharia](https://www.linkedin.com/in/livia-zaharia-4b1425a0/) and I had some free time in Milano, and I found the CODAME ""The New Human"" art hackathon. The directions that came to mind were cyborgization, mind uploading, and biological enhancement. I chose biological enhancement because my background is in bioinformatics and aging research, so I could check the claims myself. [Newton Winter](https://github.com/winternewt) joined remotely and built most of the web app and RPG interface.
+
+We built a character generator. You get 100 credits and 80 real genes from 71 source species: tardigrade Dsup for radiation resistance, naked mole-rat hyaluronic acid for cancer resistance, elephant multi-copy TP53, axolotl Lin28a for regeneration. The credits exist to force a choice. You cannot afford everything, so you start reading what the evidence actually supports before you spend.
+
+We rate every claim by how far up the translational ladder it got: cell line, model animal, primate, human trial, market. The same gene carries different ratings for different claims. CAHS D from tardigrades scores high in yeast but only medium in human cells. Melanin scores high for passive radiation shielding and low for the radiosynthesis story. Eight of the therapies in the library are already sold to adults.
+
+Star Trek Discovery built a season around a tardigrade, but the biology is less clean. Dsup halves DNA damage in human kidney cells. In rat cortical neurons it promoted double-strand breaks and killed the cells: same gene, opposite result, different tissue. Lin28a enhanced regeneration only in neonatal mice. In adults, it did nothing. These reversals are why we split ratings by tissue and claim instead of giving each gene one score.
+
+Livia wanted a physical output because this was an art hackathon. She designed a system where your gene choices generate a 3D-printable form from the proteins' molecular weight, exon count, hydropathy, and disorder. It works on a consumer printer across the whole combination space. Each result is different.
+
+We now have 109 genes, 1,023 experiments, 850 DOI-linked references, 729 registered clinical trials, and 108 organizations working on these genes. The knowledgebase, character generator, and code are open under MIT.
+
+https://enhancement.bio",https://enhancement.bio,,,,shr-0001,urn:li:activity:7492943236693581824,https://www.linkedin.com/feed/update/urn:li:activity:7492943236693581824/,,,2026-08-18,,,,too-early,"Scheduled and published via Buffer. UNTAGGED LINK: posted as bare https://enhancement.bio with no UTM parameters, so clicks from this post cannot be attributed - clicks column will stay blank. Published text contained ""80 real genes from 108 organisms""; correct figure is 71 source species (108 is the organizations count). Repo drafts corrected 2026-08-11; the live post still needs an in-place edit. enhancement.bio showcase and Longevity Genie page reshares drafted but NOT yet sent."
+shr-0002,li-grp-hplus,,p00-site,anton,en,2026-08-11,sent,"If you have ever argued about human enhancement without a shared list of what is actually on the table, here is one: 109 genes borrowed from other species, each rated by how far the evidence really got. Try it, argue with the ratings, and tell me which ones I got wrong.
+
+It seems obvious to me that advances in science should be used to enhance humans. What I could never find was a shared knowledgebase of what other species could teach us about doing it, something the rest of us could check, correct and extend. So we built one, and then wrapped it in a character generator so people would actually read it.
+
+You get 100 credits and 80 playable genes drawn from 71 source species. Tardigrade Dsup for radiation resistance, naked mole-rat hyaluronic acid for cancer resistance, African elephant multi-copy TP53, axolotl Lin28a for regeneration. The budget is deliberately too small. You cannot afford everything, so you start reading the evidence before you spend.
+
+The part that matters for this group is how we rate things. Not works or does not work, but how far up the translational ladder a claim actually got: cell line, model animal, primate, human trial, market. The same gene carries different ratings for different claims. Dsup halves DNA damage in human kidney cells; in rat cortical neurons it promoted double-strand breaks and killed them. Lin28a improved regeneration in neonatal mice and did nothing in adults. Those reversals are the reason for split ratings, and they are the most interesting entries in the library.
+
+Eight of the therapies in it are already sold to adults today. That number is the honest answer to how far off any of this is.
+
+109 genes, 1,023 experiments, 850 DOI-linked references, open under MIT. A nickname is all you need to play, no email, no account.
+
+https://enhancement.bio/?utm_source=li-grp-hplus&utm_medium=community&utm_campaign=enhbio-site&utm_content=shr-0002
+
+If someone here would enjoy tearing the ratings apart, please pass it on.",https://enhancement.bio/?utm_source=li-grp-hplus&utm_medium=community&utm_campaign=enhbio-site&utm_content=shr-0002,li-grp-hplus,community,enhbio-site,shr-0002,urn:li:activity:7493025579101986816,https://www.linkedin.com/feed/update/urn:li:activity:7493025579101986816/,,,2026-08-18,,,,too-early,"Posted by browser automation into the h+ Community group composer at 19:28 UTC - there is no LinkedIn Groups API and no scheduler can reach a group. Private Listed group so the post is invisible outside it and cannot be reshared to a feed; the UTM is for attribution only, not reach. LinkedIn auto-attached a link preview card for enhancement.bio. First correctly UTM-tagged share in this table - shr-0001 went out untagged."
+shr-0003,wa-longevity-social,,p00-site,anton,en,2026-08-25,sent,"I updated our genetic enhancement game and knowledgebase https://enhancement.bio/ Now we have mor longevity genes and they the ranking of the genes changed. As it is universal we did not strive to compete with opengenes and other longevity-specific databases, so we selected genes that looked the most interesting and robust for us in longevity section.
+Would be grateful if you guys takea look andgive feedback. On top of the knowledgebase it also has a bioart compoenent (3d printable shapes).",https://enhancement.bio/,,,,,3EB0C01DD54E76B2904493,,,,2026-09-01,,,,,"Sent through WhatsApp MCP at 2026-08-25T11:06:16Z; bare URL, no UTM parameters."
+shr-0004,wa-ardd-2024-social,,p00-site,anton,en,2026-08-25,sent,"so far we made a big update. Added more genes (incl longevity ones), changed the tracking and I belive made prject more clear for the visitors. Would be grateful if you share your feedback.",,,,,,3EB03657DB0608A9B359B1,,,,2026-09-01,,,,,"Sent through WhatsApp MCP at 2026-08-25T11:08:35Z; feedback follow-up; no direct URL in the message."
+shr-0005,wa-ardd-2025-social,,p00-site,anton,en,2026-08-25,sent,"so far we made a big update. Added more genes (incl longevity ones), changed the tracking and I belive made prject more clear for the visitors. Would be grateful if you share your feedback.",,,,,,3EB028B87C0871F0B3BE64,,,,2026-09-01,,,,,"Sent through WhatsApp MCP at 2026-08-25T11:08:19Z; feedback follow-up; no direct URL in the message."
+shr-0006,tg-sberlogabio,,p00-site,anton,ru,2026-08-25,sent,"Нам было интересно исследовать, какие гены в перспективе могут дать человеку суперспособности. И это хорошо совпадало с мечтами многих из нас, выросших на фантастике и мультфильмах, поэтому мы решили собрать такой проект.
+
+В итоге получилась открытая база знаний со ссылками на статьи, описаниями экспериментов и оценкой уровня доказательности. Кстати, на данный момент там уже 136 генов и 1 134 эксперимента. Для пополнения базы есть пайплайны для вытаскивания данных и обработки научных статей.
+
+Но нам хотелось объединить науку с той мотивацией, которая когда-то появилась у нас благодаря фантастике. Поэтому мы добавили RPG-часть: можно выбрать гены, собрать персонажа, а затем по параметрам выбранных генов сгенерировать сувенир и распечатать его на 3D-принтере.
+
+Если есть желание подключиться к проекту или можете его расшарить, будем рады. У нас всё опенсорсно, включая код и базу. И вообще будем благодарны за любой фидбек.
+
+https://enhancement.bio/?utm_source=tg-sberlogabio&utm_medium=community&utm_campaign=enhbio-site&utm_content=",https://enhancement.bio/?utm_source=tg-sberlogabio&utm_medium=community&utm_campaign=enhbio-site&utm_content=,tg-sberlogabio,community,enhbio-site,,113802,https://t.me/sberlogabio/113802/,,,2026-09-01,,1,,too-early,"Posted manually at 12:14 UTC. The link carried source, medium and campaign UTMs but had an empty utm_content, so clicks cannot be attributed to shr-0006. Telegram discussion followed in messages 113803-113809; one direct reply was visible when logged."
+shr-0009,tg-transhumanisty,,p00-site,anton,uk,2026-07-29,sent,"Ми оновили https://enhancement.bio/
+
+Це ресурс де ми збираємо інформацію. водночас міні-гра, біоарт-проєкт і наукова база знань про наявні та потенційні генетичні модифікації людини.
+
+Можна обрати риси, які цікаві, і подивитися, які реальні гени за ними стоять - деякі варіанти вже в клінічних випробуваннях або доступні в Проспері та інших альтернативних юрисдикціях, інші ще на стадії досліджень. На виході - звіт про генетичні модифікації та 3D-модель, яку можна роздрукувати.
+
+Якщо цікавіша наукова частина, а не гра - можна одразу перейти до вкладки з базою данних: там є посилання на дослідження та контакти лабораторій і організацій, які цим займаються або вже пропонують терапії.",https://enhancement.bio/,,,,,140001,,,,2026-08-05,1,,,historical,"Recovered from Telegram history on 2026-08-25. A generated report PDF followed as message 140002. The URL was bare, so the post has no attributable UTM data."
+shr-0008,tg-agingmath,,p00-site,anton,ru,2026-08-25,sent,"Нам было интересно исследовать, какие гены в перспективе могут дать человеку суперспособности. И это хорошо совпадало с мечтами многих из нас, выросших на фантастике и мультфильмах, поэтому мы решили собрать такой проект.
+
+В итоге получился открытый ресурс с базой знаний, ссылками на статьи, описаниями экспериментов и оценкой уровня доказательности. Кстати, на данный момент там уже 136 генов и 1 134 эксперимента. Для пополнения базы есть пайплайны для вытаскивания данных и агенты для обработки научных статей.
+
+Но нам хотелось объединить науку с той мотивацией, которая когда-то появилась у нас благодаря фантастике. Поэтому мы добавили RPG-часть: можно выбрать гены, собрать персонажа, а затем по параметрам выбранных генов сгенерировать сувенир и распечатать его на 3D-принтере.
+
+Если есть желание подключиться к проекту или можете его расшарить, будем рады. У нас всё опенсорсно, включая код и базу. И вообще будем благодарны за любой фидбек.
+
+https://enhancement.bio/?utm_source=tg-agingmath&utm_medium=community&utm_campaign=enhbio-site&utm_content=shr-0008",https://enhancement.bio/?utm_source=tg-agingmath&utm_medium=community&utm_campaign=enhbio-site&utm_content=shr-0008,tg-agingmath,community,enhbio-site,shr-0008,23814,https://t.me/agingmath/23814,,,2026-09-01,,,,too-early,"Posted manually in the Resources topic (topic id 8142); recovered from Telegram history on 2026-08-25."
+shr-0010,rd-transhumanism,,p00-site,anton,en,2026-08-25,sent,"When I was a kid, I kept reading about tardigrades surviving radiation, naked mole-rats barely ageing, axolotls regrowing limbs, and so on. I assumed we would eventually learn how to borrow some of those abilities.
+
+I came back to this first when I started the Ukrainian transhumanist community, and later when I got into bioinformatics for ageing research. I expected there would already be an open list of genes people were considering for human enhancement, together with the experiments behind them. There was nothing, so we started making one.
+
+Right now it has 136 genes and 1134 experiments, with links to papers and our ratings of how far the evidence got. We also made pipelines for extracting data and agents that help us process papers.
+
+https://preview.redd.it/fzl8pb4s7jlh1.jpg?width=2560&format=pjpg&auto=webp&s=e2f1f54d4409e2e5de86c868d3e53beee43a454b
+
+One thing that surprised me is that not all of this is hypothetical. Eight therapies in the database are already sold to adults. In alternative jurisdictions such as Prospera, people are receiving follistatin and VEGF gene therapies. A lot of transhumanists I talk to do not seem to know this is already happening.
+
+The science-fiction motivation never went away, so we also made it into a small RPG. You get 100 credits, pick genes, build a character, and get a 3D-printable sculpture based on your choices.
+
+Everything is open source, including the code and the database. We'd love to hear what people think and would welcome any contributions.
+
+The resource is [https://enhancement.bio](https://enhancement.bio), and its GitHub is [https://github.com/longevity-genie/materialized-enchancements](https://github.com/longevity-genie/materialized-enchancements)
+
+P.S. Originally, the project was created at a science-art hackathon, but we later realized that a knowledge base has value on its own for many users. The promo video with the initial idea is [https://youtu.be/ev726lz5sLo](https://youtu.be/ev726lz5sLo)",https://enhancement.bio,,,,,t3_1vy0dtb,https://www.reddit.com/r/transhumanism/comments/1vy0dtb/bringing_together_the_evidence_on_human_gene/,,,2026-09-01,11,4,,too-early,"Posted manually as a Reddit self-post. Title: Bringing together the evidence on human gene enhancement, from early experiments to therapies already offered to adults. Anton reported an early tally of 11 upvotes and no downvotes, unlike the earlier 'trust me' post; Reddit's public API still showed a fuzzed score of 6 and 88% upvote ratio. The API reported 4 comments and 5 reposts. The main embedded image generated a feed thumbnail; an OP follow-up comment added the project history, RPG clarification, video and a photo of Livia wearing the sculpture. No votes were solicited. The enhancement.bio link was untagged, so Umami may show Reddit referral traffic but cannot attribute it to this specific post. The live GitHub URL is misspelled as materialized-enchancements."
