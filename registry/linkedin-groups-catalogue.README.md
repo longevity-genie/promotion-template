@@ -100,3 +100,39 @@ to punish a mistake.
   reshared to a feed. Only `Public group` posts (here: `Genetics Network`, both
   Bioinformatics groups) are worth a UTM-tracked link for reach reasons; in private groups
   the UTM is still worth it for attribution.
+
+## 2026-08-27 sweep: diabetes, digital health and clinical research
+
+32 rows added from LinkedIn group search in a logged-in session:
+`diabetes`, `continuous glucose monitoring`, `digital health`, `endocrinology`,
+`clinical research`, `wearable sensors health`, `patient advocacy`,
+`machine learning healthcare`.
+
+Three category values are new in this file and are used only by these rows:
+`digital-health`, `ml-health`, `wearables`.
+
+**LinkedIn is a professional surface for this project, not a patient surface.** There is
+no equivalent of the Facebook patient rooms here. `continuous glucose monitoring` as a
+group query returns three results, two of them dead. What LinkedIn does have is large
+digital-health and clinical-research rooms where the argument that lands is the missing
+human baseline, not "come play our game".
+
+Four rows are worth more than the rest:
+
+- **Diabetes Influencers Network** (4K, private) - a room of people whose job is amplifying
+  diabetes content. Highest leverage per member of anything in this file. Approach it as a
+  collaboration ask, not a post.
+- **Clinical Trials and Research Groups Using Sensors and VivoSense Software** (2K, private)
+  - small, and the single most precisely on-topic professional room found: wearable-sensor
+  clinical trials are exactly the methodological neighbourhood Sugar-Sugar sits in.
+- **Health & Medicine: AI Biotech, Digital Health & MedTech** (281K, public) and
+  **Digital Health** (118K, public) - the only rooms here big enough to move numbers.
+  Public visibility means posts are indexable off LinkedIn.
+- **Certified Diabetes Care and Education Specialists** (5K, private) - educators, who
+  respond to the ethics approval and the protocol rather than the game.
+
+As the original sweep found, **no LinkedIn group publishes rules in the rules field.**
+Every new row therefore reads `UNVERIFIED - LinkedIn groups publish no rules field; check
+for a pinned admin rule post after joining`. That is a real instruction, not a placeholder:
+`Genetics and Genomics` carried its rule in a pinned post and it was the strictest one in
+the whole catalogue.

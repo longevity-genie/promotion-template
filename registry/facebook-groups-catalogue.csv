@@ -1,5 +1,4 @@
 group_id,name,url,category,relevance,language,size,self_promo_rule,status,notes
-349154775280463,3DHeals: 3D printing in Healthcare,https://www.facebook.com/groups/349154775280463/,3d-print-design,A,,,,promoted,in destinations.csv as on-hold
 148759002541118,BIOHACKING,https://www.facebook.com/groups/148759002541118/,biohacking,A,,,,promoted,in destinations.csv as on-hold
 769326966539324,Biohacking and Genetic Design Network,https://www.facebook.com/groups/769326966539324/,biohacking,A,,,,promoted,in destinations.csv as on-hold
 1631847790186695,Biohacking in Romania,https://www.facebook.com/groups/1631847790186695/,biohacking,A,,,,promoted,in destinations.csv as on-hold
@@ -28,23 +27,6 @@ group_id,name,url,category,relevance,language,size,self_promo_rule,status,notes
 221380458416592,Цікава біологія,https://www.facebook.com/groups/221380458416592/,science-popular,A,,,,promoted,in destinations.csv as on-hold
 169057978644809,ЦІКАВО З БІОЛОГІЄЮ,https://www.facebook.com/groups/169057978644809/,science-popular,A,,,,promoted,in destinations.csv as on-hold
 744214419714896,Я ♥ Біологію,https://www.facebook.com/groups/744214419714896/,science-popular,A,,,,promoted,in destinations.csv as on-hold
-835676049870183,Computational Synthetic Biology,https://www.facebook.com/groups/835676049870183/,synthetic-biology,A,,,,promoted,in destinations.csv as on-hold
-2217161950,iGEM (International Genetically Engineered Machine),https://www.facebook.com/groups/2217161950/,synthetic-biology,A,,,,promoted,in destinations.csv as on-hold
-320000391386916,Leukippos - Synthetic Biology Dry Lab,https://www.facebook.com/groups/320000391386916/,synthetic-biology,A,,,,promoted,in destinations.csv as on-hold
-6671208669,SYSTEMS & SYNTHETIC BIOLOGY,https://www.facebook.com/groups/6671208669/,synthetic-biology,A,,,,promoted,in destinations.csv as on-hold
-2264465765,Foresight Institute,https://www.facebook.com/groups/2264465765/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-347423578658257,Future Day,https://www.facebook.com/groups/347423578658257/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-26142561357,Humanity Plus,https://www.facebook.com/groups/26142561357/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-1550431511838761,Posthuman Network,https://www.facebook.com/groups/1550431511838761/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-759766794154535,Posthuman Studies,https://www.facebook.com/groups/759766794154535/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-1583992725237264,Science & Futurism with Isaac Arthur,https://www.facebook.com/groups/1583992725237264/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-471075116397563,Science & Transhumanism,https://www.facebook.com/groups/471075116397563/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-344043225727469,"Science, Technology & the Future",https://www.facebook.com/groups/344043225727469/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-118345618226308,Singularity Network,https://www.facebook.com/groups/118345618226308/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-208710356322883,Technical Transhumanism,https://www.facebook.com/groups/208710356322883/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-1582953365276711,Transhumanism roadmaps,https://www.facebook.com/groups/1582953365276711/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-642597989161010,Transhumanist art gallery,https://www.facebook.com/groups/642597989161010/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
-1629400037347935,Transhumanists In Education,https://www.facebook.com/groups/1629400037347935/,transhumanism-futurism,A,,,,promoted,in destinations.csv as on-hold
 42576152209,Biomedical Engineering,https://www.facebook.com/groups/42576152209/,bioengineering,B,,,,uncontacted,
 260081431511813,"Anti Aging, Biohacking & Longevity Knowledge",https://www.facebook.com/groups/260081431511813/,biohacking,B,,,,uncontacted,
 2208539756,Bioinformatics,https://www.facebook.com/groups/2208539756/,bioinformatics-compbio,B,,,,uncontacted,
@@ -53,8 +35,6 @@ group_id,name,url,category,relevance,language,size,self_promo_rule,status,notes
 559638291233303,Bioinformatics and Biomedicine Research,https://www.facebook.com/groups/559638291233303/,bioinformatics-compbio,B,,,,uncontacted,
 177493842297795,Bioinformatics Research,https://www.facebook.com/groups/177493842297795/,bioinformatics-compbio,B,,,,uncontacted,
 118409561655099,Computational Biology And Bioinformatics,https://www.facebook.com/groups/118409561655099/,bioinformatics-compbio,B,,,,uncontacted,
-133945380145463,Cryonics Discussions,https://www.facebook.com/groups/133945380145463/,cryonics,B,,,,uncontacted,
-1308820382493517,European Cryonics Network,https://www.facebook.com/groups/1308820382493517/,cryonics,B,,,,uncontacted,
 413760998742720,Biotechnology - Genetics - Immunology,https://www.facebook.com/groups/413760998742720/,genetics-biotech,B,,,,uncontacted,
 118666668267133,Biotechnology Microbiology Molecular Biology Genetics,https://www.facebook.com/groups/118666668267133/,genetics-biotech,B,,,,uncontacted,
 622065294546538,General evolution theory,https://www.facebook.com/groups/622065294546538/,genetics-biotech,B,,,,uncontacted,
@@ -72,90 +52,103 @@ group_id,name,url,category,relevance,language,size,self_promo_rule,status,notes
 223876451014842,Technology and the Future of Medicine,https://www.facebook.com/groups/223876451014842/,longevity-aging,B,,,,uncontacted,
 1654991818074953,Российская геронтология (Russian gerontology),https://www.facebook.com/groups/1654991818074953/,longevity-aging,B,,,,uncontacted,
 1620474738196557,Теоретическая геронтология,https://www.facebook.com/groups/1620474738196557/,longevity-aging,B,,,,uncontacted,
-1938310619594496,Medicina regenerativa in Romania,https://www.facebook.com/groups/1938310619594496/,regenerative-med,B,,,,uncontacted,
-477384445931148,ORGANOID RESEARCH NEWS,https://www.facebook.com/groups/477384445931148/,regenerative-med,B,,,,uncontacted,
 106997065584,Biology World Research,https://www.facebook.com/groups/106997065584/,science-popular,B,,,,uncontacted,
 1416658058502817,Science Graphics that look like Shitposts,https://www.facebook.com/groups/1416658058502817/,science-popular,B,,,,uncontacted,
 226096020786795,Science Humor,https://www.facebook.com/groups/226096020786795/,science-popular,B,,,,uncontacted,
 1628246030796507,Scientific Media Ukraine,https://www.facebook.com/groups/1628246030796507/,science-popular,B,,,,uncontacted,
 387484525158387,Навколо Науково,https://www.facebook.com/groups/387484525158387/,science-popular,B,,,,uncontacted,
-492800384233327,Igem 2016 - Synbio Club,https://www.facebook.com/groups/492800384233327/,synthetic-biology,B,,,,uncontacted,
-253436498081769,Augmenting Intelligence - Mind Uploading,https://www.facebook.com/groups/253436498081769/,transhumanism-futurism,B,,,,uncontacted,
-447205652317774,CLUB DE SEGUIDORES DE JOSE LUIS CORDEIRO,https://www.facebook.com/groups/447205652317774/,transhumanism-futurism,B,,,,uncontacted,
-2445335657,Immortality,https://www.facebook.com/groups/2445335657/,transhumanism-futurism,B,,,,uncontacted,
-87705650502,NanoMedicine - The Future,https://www.facebook.com/groups/87705650502/,transhumanism-futurism,B,,,,uncontacted,
-1167957999944079,Physical Immortality and Post-Human Collective,https://www.facebook.com/groups/1167957999944079/,transhumanism-futurism,B,,,,uncontacted,
-26520845479,Singularity,https://www.facebook.com/groups/26520845479/,transhumanism-futurism,B,,,,uncontacted,
-374692554288,Singularity 2045,https://www.facebook.com/groups/374692554288/,transhumanism-futurism,B,,,,uncontacted,
-451319638288201,Techno-Optimism,https://www.facebook.com/groups/451319638288201/,transhumanism-futurism,B,,,,uncontacted,
-142922122428728,The Future 101,https://www.facebook.com/groups/142922122428728/,transhumanism-futurism,B,,,,uncontacted,
-543682229728330,The Immortalists Club,https://www.facebook.com/groups/543682229728330/,transhumanism-futurism,B,,,,uncontacted,
-835560326465308,Transhumanistes,https://www.facebook.com/groups/835560326465308/,transhumanism-futurism,B,,,,uncontacted,
 724779934237822,BioInformatics - Coursera,https://www.facebook.com/groups/724779934237822/,bioinformatics-compbio,C,,,,uncontacted,
 531403933971486,Single Cell RNA Sequencing,https://www.facebook.com/groups/531403933971486/,bioinformatics-compbio,C,,,,uncontacted,
 7711059962,Clinical Research Professionals,https://www.facebook.com/groups/7711059962/,clinical-research,C,,,,uncontacted,
-108670815821594,Complex Adaptive Systems,https://www.facebook.com/groups/108670815821594/,complex-systems,C,,,,uncontacted,
-776082569105208,CRI Clubs,https://www.facebook.com/groups/776082569105208/,cryonics,C,,,,uncontacted,
-669439207302831,Effective Altruism Romania,https://www.facebook.com/groups/669439207302831/,ea-community,C,,,,uncontacted,
-279252848791825,OpenEducation,https://www.facebook.com/groups/279252848791825/,education,C,,,,uncontacted,
 212983514320,Microbiology & Immunology,https://www.facebook.com/groups/212983514320/,genetics-biotech,C,,,,uncontacted,
 264111301098209,Healthcare Engineering Platform,https://www.facebook.com/groups/264111301098209/,health-wellness,C,,,,uncontacted,
 163939867106166,Medicine news,https://www.facebook.com/groups/163939867106166/,health-wellness,C,,,,uncontacted,
 1076569112356504,HLRI (Human Life Rescuing Institute),https://www.facebook.com/groups/1076569112356504/,longevity-aging,C,,,,uncontacted,
 185523678274305,I choose life,https://www.facebook.com/groups/185523678274305/,longevity-aging,C,,,,uncontacted,
 129086380612590,ILA: actions,https://www.facebook.com/groups/129086380612590/,longevity-aging,C,,,,uncontacted,
-144017955332,Brain Debugging Discussion,https://www.facebook.com/groups/144017955332/,neuro-consciousness,C,,,,uncontacted,
-1832910386989419,Consciousness: Evolution of the Mind,https://www.facebook.com/groups/1832910386989419/,neuro-consciousness,C,,,,uncontacted,
-1920245814726684,Neural circuits: computational anatomical and molecular,https://www.facebook.com/groups/1920245814726684/,neuro-consciousness,C,,,,uncontacted,
-2204995088,Neuroscience,https://www.facebook.com/groups/2204995088/,neuro-consciousness,C,,,,uncontacted,
-155154497911927,Neuroscience Researchers,https://www.facebook.com/groups/155154497911927/,neuro-consciousness,C,,,,uncontacted,
-133141680107853,The Brain Cafe,https://www.facebook.com/groups/133141680107853/,neuro-consciousness,C,,,,uncontacted,
-1413485522022696,The Cybernetic Theory of Mind,https://www.facebook.com/groups/1413485522022696/,neuro-consciousness,C,,,,uncontacted,
-173183246109275,The edge of neuroscience and psychology,https://www.facebook.com/groups/173183246109275/,neuro-consciousness,C,,,,uncontacted,
-609421200390866,OpenData4Health,https://www.facebook.com/groups/609421200390866/,open-data,C,,,,uncontacted,
 675438512885270,Fingertip Microscope,https://www.facebook.com/groups/675438512885270/,science-popular,C,,,,uncontacted,
 681699398830820,Math for Science & Programming,https://www.facebook.com/groups/681699398830820/,science-popular,C,,,,uncontacted,
 590310794414367,Наукові публікації та конференції,https://www.facebook.com/groups/590310794414367/,science-popular,C,,,,uncontacted,
 251798398338842,НК - Освіта і наука,https://www.facebook.com/groups/251798398338842/,science-popular,C,,,,uncontacted,
 261967180671924,Нова Країна - Наука,https://www.facebook.com/groups/261967180671924/,science-popular,C,,,,uncontacted,
-285910613189475,Human Heritage Resilience,https://www.facebook.com/groups/285910613189475/,transhumanism-futurism,C,,,,uncontacted,
-230071923763432,Physical Immortality,https://www.facebook.com/groups/230071923763432/,transhumanism-futurism,C,,,,uncontacted,
-463868923633763,The Future Independent Party,https://www.facebook.com/groups/463868923633763/,transhumanism-futurism,C,,,,uncontacted,
-112896315463553,The Singularity Comedy Network (TSCN),https://www.facebook.com/groups/112896315463553/,transhumanism-futurism,C,,,,uncontacted,
-166968822196706,Transhuman COIN,https://www.facebook.com/groups/166968822196706/,transhumanism-futurism,C,,,,uncontacted,
-346525217817,Away 3D,https://www.facebook.com/groups/346525217817/,3d-print-design,D,,,,uncontacted,
-2151674495104174,AI Robotics and Blockchain - Kambria,https://www.facebook.com/groups/2151674495104174/,ai-tech,D,,,,uncontacted,
-242894285747091,AI-class - Introduction to Artificial Intelligence,https://www.facebook.com/groups/242894285747091/,ai-tech,D,,,,uncontacted,
-2039784346265442,Deep Learning and the Game of Go Study Group,https://www.facebook.com/groups/2039784346265442/,ai-tech,D,,,,uncontacted,
-1709429062637950,Future of AI - Hipolito Gutierrez Villasenor,https://www.facebook.com/groups/1709429062637950/,ai-tech,D,,,,uncontacted,
-288864260516,Integrating Technology with AI,https://www.facebook.com/groups/288864260516/,ai-tech,D,,,,uncontacted,
-686333764816402,The daily tech,https://www.facebook.com/groups/686333764816402/,ai-tech,D,,,,uncontacted,
-242004204887648,Прикладные системы AI,https://www.facebook.com/groups/242004204887648/,ai-tech,D,,,,uncontacted,
-400766666923908,ILARIA Corporation,https://www.facebook.com/groups/400766666923908/,business,D,,,,uncontacted,
-846351759037105,Venture Deals 2019,https://www.facebook.com/groups/846351759037105/,business,D,,,,uncontacted,
-307669581195,CHEMIF.PTML LAB,https://www.facebook.com/groups/307669581195/,chem-lab,D,,,,uncontacted,
 794420320666817,Clinical learning,https://www.facebook.com/groups/794420320666817/,clinical-research,D,,,,uncontacted,
-191943398056893,The Collaborative Impact Network,https://www.facebook.com/groups/191943398056893/,ea-community,D,,,,uncontacted,
-869185633167136,Education Club,https://www.facebook.com/groups/869185633167136/,education,D,,,,uncontacted,
 524662194348790,CheckApp AI Health,https://www.facebook.com/groups/524662194348790/,health-wellness,D,,,,uncontacted,
 387303444785433,Healthy living with alternative medicine holistic,https://www.facebook.com/groups/387303444785433/,health-wellness,D,,,,uncontacted,
 108287489739653,Medical VR+AI,https://www.facebook.com/groups/108287489739653/,health-wellness,D,,,,uncontacted,
-3329061010675849,AI ROMANIA,https://www.facebook.com/groups/3329061010675849/,local-community,D,,,,uncontacted,
-552197316484172,Jobs for Ukrainian People,https://www.facebook.com/groups/552197316484172/,local-community,D,,,,uncontacted,
-492131284192667,Romania Startup & Tech Events,https://www.facebook.com/groups/492131284192667/,local-community,D,,,,uncontacted,
-208569246668568,Romanian Technology Professionals Group,https://www.facebook.com/groups/208569246668568/,local-community,D,,,,uncontacted,
-256373621041781,Scala Ukraine,https://www.facebook.com/groups/256373621041781/,local-community,D,,,,uncontacted,
-316397118444074,TechHub Bucharest,https://www.facebook.com/groups/316397118444074/,local-community,D,,,,uncontacted,
-241544937437505,Transfer Ukraine Romania,https://www.facebook.com/groups/241544937437505/,local-community,D,,,,uncontacted,
-1938814352857801,Румынский язык Romanian language,https://www.facebook.com/groups/1938814352857801/,local-community,D,,,,uncontacted,
-1779182309034449,Румынский язык.Limba Romana.Romanian language,https://www.facebook.com/groups/1779182309034449/,local-community,D,,,,uncontacted,
 160443394114941,ILA Project Leaders,https://www.facebook.com/groups/160443394114941/,longevity-aging,D,,,,uncontacted,
 147832422048572,ILA: Moderators,https://www.facebook.com/groups/147832422048572/,longevity-aging,D,,,,uncontacted,
-239023999511470,Self Aware Networks,https://www.facebook.com/groups/239023999511470/,neuro-consciousness,D,,,,uncontacted,
-1183140668424308,Interplanetary Transport System-STARSHIP,https://www.facebook.com/groups/1183140668424308/,space,D,,,,uncontacted,
-481485318852862,Open Fellowship of Deep Space Diplomats,https://www.facebook.com/groups/481485318852862/,space,D,,,,uncontacted,
-137892646337480,Space & Interstellar Travel,https://www.facebook.com/groups/137892646337480/,space,D,,,,uncontacted,
-1417947735176914,SpaceX,https://www.facebook.com/groups/1417947735176914/,space,D,,,,uncontacted,
-1302707103189383,OFFICIAL Swimrun Forum - World of Swimrun,https://www.facebook.com/groups/1302707103189383/,sport,D,,,,uncontacted,
-155327981596464,SwimRun Society,https://www.facebook.com/groups/155327981596464/,sport,D,,,,uncontacted,
-1616931591891988,THE SECRET OF IMMORTALITY - REVEALED!,https://www.facebook.com/groups/1616931591891988/,transhumanism-futurism,D,,,,uncontacted,
+923574571516837,Diabetes support group,https://www.facebook.com/groups/923574571516837/,diabetes,A,en,103.5K,,uncontacted,Pending approval noted in source. General diabetes support
+diabetespatientsworldwide,Diabetes patients worldwide,https://www.facebook.com/groups/diabetespatientsworldwide/,diabetes,B,en,6.2K,,uncontacted,
+TheFreedomFromDiabetes,The Freedom from diabetes,https://www.facebook.com/groups/TheFreedomFromDiabetes/,diabetes,B,en,27.5K,,uncontacted,
+diabetestreatmentgroup,Diabetes treatment group,https://www.facebook.com/groups/diabetestreatmentgroup/,diabetes,B,en,11.2K,,uncontacted,
+1691039397784554,Dexcom users,https://www.facebook.com/groups/1691039397784554/,cgm,A,en,39.7K,,uncontacted,CGM-specific. Sugar-Sugar supports Dexcom upload format
+cgminthecloud,CGM in the cloud,https://www.facebook.com/groups/cgminthecloud/,cgm,A,en,39K,,uncontacted,Nightscout community. DIY CGM data sharing - ideal Sugar-Sugar audience
+549962399159875,Freestyle libre 2 users,https://www.facebook.com/groups/549962399159875/,cgm,A,en,21K,,uncontacted,"Source notes: suspicious commenting rules - verify before posting. Re-checked 2026-08-27: 21K members, Private"
+748445301888935,Abbott Libre users,https://www.facebook.com/groups/748445301888935/,cgm,A,en,24K,,uncontacted,Sugar-Sugar supports Libre upload format
+2365409206,Diabetes type 2 support group,https://www.facebook.com/groups/2365409206/,diabetes,A,en,53.9K,,uncontacted,Large T2D community. Study recruits both T1 and T2
+1587042001588361,Diabetes - Positive Attitude towards Diabetes,https://www.facebook.com/groups/1587042001588361/,diabetes,B,en,31K,,uncontacted,Post submitted for approval in prior outreach
+157003534987311,Living with diabetes,https://www.facebook.com/groups/157003534987311/,diabetes,B,en,33.6K,,uncontacted,
+225445087545109,International Friends with Type 1 Diabetes,https://www.facebook.com/groups/225445087545109/,diabetes,A,en,9.1K,,uncontacted,T1D-specific. Study targets about 100 T1D participants
+210509455804121,Type 1 Diabetes Support Group (The One And Only Original),https://www.facebook.com/groups/210509455804121/,diabetes,A,en,88K,,uncontacted,"Source notes: rules say no fund raisers or blog pages. Re-checked 2026-08-27: 88K members, Private, ~20 posts/day"
+2201697719848708,FreeStyle Libre CGM System,https://www.facebook.com/groups/2201697719848708/,cgm,A,en,50.2K,VERIFIED 2026-08-27: group publishes NO rules in the rules field,uncontacted,"Largest Libre-specific group. Sugar-Sugar supports Libre format. Re-checked 2026-08-27: 50.2K members, no published rules, ~470 posts/day. Livia is a member"
+457798780957725,CGM (Continuous Glucose Monitoring) support group for Diabetes,https://www.facebook.com/groups/457798780957725/,cgm,A,en,7.1K,"QUOTED rule 2: ""No promotions or spam. Self-promotion, spam and irrelevant links are not allowed."" Rule 3 bans wellness/weight-loss framing of CGM",uncontacted,Re-checked 2026-08-27: 7.1K (was 4.8K). Self-promo banned outright - admin permission first. Rule 3 means never frame the study as wellness or weight loss
+type2diabetessupport,TYPE 2 DIABETES SUPPORT GROUP,https://www.facebook.com/groups/type2diabetessupport/,diabetes,B,en,33.3K,,uncontacted,Source notes: requires subscribing to some YT channel - verify
+1649936251772239,Ukrainian diabetes group,https://www.facebook.com/groups/1649936251772239/,diabetes,A,uk,11K,,uncontacted,Ukrainian-language. Sugar-Sugar has Ukrainian UI translation
+juiceboxpodcast,Juicebox Podcast Community,https://www.facebook.com/groups/juiceboxpodcast/,diabetes,A,en,82.5-84K,,promoted,Promoted to destinations.csv as on-hold. Private group around the Juicebox Podcast (Scott Benner). T1D management and lived experience. Media kit supports collaborations. Source: Outreach Landscape PDF
+bluecircle-dsn-india,Blue Circle Diabetes Foundation / DSN India,https://www.bluecircle.foundation/,diabetes,A,en,18K,,promoted,Promoted to destinations.csv as on-hold. India-focused patient-led diabetes support with community groups. Source: Outreach Landscape PDF
+rodiabet,RoDiabet,https://www.facebook.com/Rodiabet-247041172847406/,diabetes,A,ro,18.6K,,promoted,"Promoted to destinations.csv as on-hold. Romanian diabetes news, patient education, technology. Source: Outreach Landscape PDF"
+1539517486772872,Dexcom G7 (10 & 15 day) - Issues and Complaints,https://www.facebook.com/groups/1539517486772872/,cgm,A,en,95.4K,"QUOTED rule 2: ""No promotions or spam. Give more than you take in this group. Self-promotion, spam and irrelevant links are not allowed."" Rule 1: joining requires answering 3 questions and agreeing to the rules",uncontacted,VERIFIED 2026-08-27. Largest CGM room found anywhere in this sweep. ~1.4K posts/day. Livia is a member. Self-promo banned outright - the only safe route is admin permission before posting
+type1diabetesgroup,Type 1 Diabetes Support & Awareness Group,https://www.facebook.com/groups/type1diabetesgroup/,diabetes,A,en,48.7K,"QUOTED rule 4: ""No promotions or spam. Give more than you take in this group. Self-promotion, spam and irrelevant links are not allowed."" Rule 2 bans medical advice, dosages and treatment suggestions",uncontacted,"VERIFIED 2026-08-27. Created Nov 2025, growing ~950/week, ~1.1K posts/day. Livia is a member. Rule 2 is fine for Sugar-Sugar - the study gives no dosing advice - but say so explicitly when asking admins"
+freestylelibre3,FreeStyle Libre 3,https://www.facebook.com/groups/freestylelibre3/,cgm,A,en,31.5K,"QUOTED rules: 1 ""No for sale posts"" 2 ""Stay on topic - please no posts that are not at least somewhat related to FreeStyle Libre 3"" 3 no spammers and scammers 4 do not take things too serious",uncontacted,"VERIFIED 2026-08-27. Notably permissive - no blanket self-promo ban, unlike every other large CGM room. Best first-post candidate on Facebook if framed around Libre 3 data"
+1451017928461854,Omnipod & Dexcom Users,https://www.facebook.com/groups/1451017928461854/,cgm,A,en,31.4K,"QUOTED rule 3: ""NO Promotions or Spam. Give more than you take to this group. Self-promotion, spam and irrelevant links are not allowed. No fundra..."" Rule 1 bans buying/selling/donating supplies",uncontacted,"VERIFIED 2026-08-27. Private, ~10+ posts/day. Loop and pump users - technically literate audience. Admin permission first"
+235546917779339,Dexcom G7,https://www.facebook.com/groups/235546917779339/,cgm,A,en,50K,VERIFIED 2026-08-27: group publishes NO rules in the rules field,uncontacted,"Private, ~8 posts/day. Second-largest Dexcom room. No published rule means ask the admin rather than assume permission"
+noisidiabetul,Noisidiabetul (de tip 1),https://www.facebook.com/groups/noisidiabetul/,diabetes,A,ro,25.9K,"QUOTED rule 1: ""INTERZIS vanzari/donatii"" - no selling or donating sensors, insulin or supplies. Rule 2: search before asking, this is a T1D support group. Rule 3: be civil. No explicit self-promo ban in the visible rules",uncontacted,VERIFIED 2026-08-27. Largest Romanian T1D room. Public. Direct fit for Livia to post in Romanian in her own voice. Still confirm with admins
+CGMKHM,Безперервний монітор глюкози (CGM - Continuous Glucose Monitoring),https://www.facebook.com/groups/CGMKHM/,cgm,A,uk,1.1K,VERIFIED 2026-08-27: group publishes NO rules in the rules field,uncontacted,"The only Ukrainian-language CGM-specific group found. Public. Small but exactly on-topic, and Sugar-Sugar has a Ukrainian UI"
+2208839292747745,Цукровий діабет - загальні статті,https://www.facebook.com/groups/2208839292747745/,diabetes,A,uk,4.7K,VERIFIED 2026-08-27: group publishes NO rules in the rules field,uncontacted,"Largest Ukrainian-language diabetes group found. Public, article-oriented - a study write-up fits the format"
+diabetes.and.health,Жизнь с Диабетом,https://www.facebook.com/groups/diabetes.and.health/,diabetes,C,ru,230.3K,"QUOTED rules: 1 own recipes/photos only, no copying from other sites or groups. 4 medical treatment questions are not discussed here",uncontacted,VERIFIED 2026-08-27. By far the largest Russian-language room at 230K but it is a RECIPE group - rule 1 demands original food content and rule 4 pushes medical topics out. Downgraded to C despite size: a study link is off-topic by its own rules
+diabetcomunitate,Prediabet și Diabet Zaharat Tip 2 - Învață să controlezi nivelul glicemiei,https://www.facebook.com/groups/diabetcomunitate/,diabetes,B,ro,31.2K,"QUOTED rule 4: ""Fara promotii si fara..."" - no promotions or spam. Rule 2: what is shared in the group stays in the group",uncontacted,VERIFIED 2026-08-27. Private. Largest Romanian T2D and prediabetes room. Self-promo banned - admin permission first
+1119976272392828,Freestyle Libre 3 -America,https://www.facebook.com/groups/1119976272392828/,cgm,A,en,17K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 10+ posts/day. US Libre 3 users"
+684145624405352,Freestyle Libre 2 PLUS (UK only),https://www.facebook.com/groups/684145624405352/,cgm,B,en,9.1K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, UK-only"
+1275960737351086,Freestyle Libre 2 Plus Problems Page (UK Only),https://www.facebook.com/groups/1275960737351086/,cgm,B,en,6.3K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, UK-only, complaint-oriented"
+freestylelibre3plus,Freestyle Libre 3 Plus [DmeDevices.com],https://www.facebook.com/groups/freestylelibre3plus/,cgm,C,en,5K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public but vendor-run (DmeDevices.com) - likely commercial, check before posting"
+357420907437179,Abbott FreeStyle Libre System (CGM),https://www.facebook.com/groups/357420907437179/,cgm,B,en,3.8K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 9 posts/day"
+181887429719254,FreeStyle Libre - Australia,https://www.facebook.com/groups/181887429719254/,cgm,C,en,2K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, Australia-specific"
+871914800584536,Dexcom G7 and Libre 3,https://www.facebook.com/groups/871914800584536/,cgm,B,en,1.3K,UNVERIFIED - read the group rules before the first post,uncontacted,Private. Covers both device families Sugar-Sugar can ingest
+442933318899182,Tandem Mobi and Dexcom G7 Tips & Tricks (Deck My Diabetes),https://www.facebook.com/groups/442933318899182/,cgm,B,en,1.5K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, brand-hosted by Deck My Diabetes"
+448584281551374,Dexcom One + (Worldwide),https://www.facebook.com/groups/448584281551374/,cgm,B,en,2K,UNVERIFIED - read the group rules before the first post,uncontacted,Private
+987975346042373,Dexcom One + (UK users),https://www.facebook.com/groups/987975346042373/,cgm,C,en,1.4K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, UK-specific"
+2094512450940981,Dexcom g6 sensor,https://www.facebook.com/groups/2094512450940981/,cgm,B,en,1.4K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 8 posts/day. Older sensor generation"
+898695262189975,LinX Continuous Glucose Monitor User Group,https://www.facebook.com/groups/898695262189975/,cgm,C,en,614,UNVERIFIED - read the group rules before the first post,uncontacted,"Public. Niche device, not a format Sugar-Sugar ingests"
+bcdiabetesloopers,BC Diabetes Loopers,https://www.facebook.com/groups/bcdiabetesloopers/,cgm,A,en,2.2K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 2 posts/day. DIY closed-loop users - the most technically literate CGM audience there is, and the closest match to the Nightscout crowd already in destinations.csv"
+loopfollowlnl,LoopFollow,https://www.facebook.com/groups/loopfollowlnl/,cgm,A,en,1.4K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 2 posts/day. LoopFollow is the Nightscout/Loop remote-monitoring app. Same audience as CGM in the Cloud"
+type1diabetes.t1d,Type 1 Diabetes Care & Support,https://www.facebook.com/groups/type1diabetes.t1d/,diabetes,A,en,10K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 10+ posts/day"
+dealingwitht1d,dealing with diabetes (t1d support group),https://www.facebook.com/groups/dealingwitht1d/,diabetes,A,en,8.6K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 20+ posts/day - high engagement for its size"
+832588382985419,Type 1 Diabetes Support Group,https://www.facebook.com/groups/832588382985419/,diabetes,B,en,6.3K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 10 posts/day"
+674200682999019,Type 1 Diabetes Support Canada,https://www.facebook.com/groups/674200682999019/,diabetes,B,en,6.3K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, Canada"
+Type1D,Type 1 Diabetes in Scotland,https://www.facebook.com/groups/Type1D/,diabetes,B,en,6.7K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, Scotland"
+1196525828950328,Type 1 Diabetics,https://www.facebook.com/groups/1196525828950328/,diabetes,B,en,1.2K,UNVERIFIED - read the group rules before the first post,uncontacted,Public
+t1der,T1der - Type 1 Diabetic Singles,https://www.facebook.com/groups/t1der/,diabetes,C,en,4.1K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, dating-oriented. Off-purpose for a study recruitment post"
+907130061348027,TYPE 1 PARENTS - Parents Of Children With Type 1 Diabetes,https://www.facebook.com/groups/907130061348027/,diabetes,C,en,4.9K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 10+ posts/day. Parents of minors - the study recruits adults 18+, so this is a referral room at best, not a recruitment room"
+700278014217257,Kids With Type 1 Diabetes,https://www.facebook.com/groups/700278014217257/,diabetes,D,en,3.8K,UNVERIFIED - read the group rules before the first post,uncontacted,Children. Study is 18+ only - do not post
+252995116355123,Diabetes 101 for Beginners,https://www.facebook.com/groups/252995116355123/,diabetes,B,en,487K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 90+ posts/day. The largest diabetes group found anywhere. Beginner audience - low CGM literacy, high volume, high noise"
+1941688949937942,"Type 2 Diabetes : Information, Support & Sharing",https://www.facebook.com/groups/1941688949937942/,diabetes,B,en,67K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 90+ posts/day"
+type2diabetesuk,Type 2 Diabetes Support UK,https://www.facebook.com/groups/type2diabetesuk/,diabetes,B,en,31K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 10+ posts/day, UK"
+1932137147050552,Diabetes support group For type 1 and 2,https://www.facebook.com/groups/1932137147050552/,diabetes,B,en,15K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 30+ posts/day"
+3008230875978006,Type 3c diabetes support,https://www.facebook.com/groups/3008230875978006/,diabetes,B,en,2.6K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 4 posts/day. Pancreatogenic diabetes - underserved and usually CGM-using"
+1087050388499291,Diabetes treatment,https://www.facebook.com/groups/1087050388499291/,diabetes,C,en,7.8K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 40+ posts/day. Generic name, verify quality before posting"
+1253937961303184,Diabetes USA,https://www.facebook.com/groups/1253937961303184/,diabetes,C,en,1.6K,UNVERIFIED - read the group rules before the first post,uncontacted,Public
+507995967165089,DIABETES Community Support GROUP UAE,https://www.facebook.com/groups/507995967165089/,diabetes,C,en,1.1K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, UAE"
+aasd.diabetes,(AASD) Arabic Association for the Study of Diabetes and Metabolism,https://www.facebook.com/groups/aasd.diabetes/,diabetes,C,en,11K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, professional association, 3 posts/day. Clinician audience - the ethics-and-protocol angle, not the game angle"
+836916376356043,Diabet zaharat tip 1,https://www.facebook.com/groups/836916376356043/,diabetes,A,ro,5.8K,UNVERIFIED - read the group rules before the first post,uncontacted,Private. Romanian T1D-specific
+9976666182353371,Diabet Zaharat de tip 2 - Rezistență la Insulină - Remisie - Alimentație,https://www.facebook.com/groups/9976666182353371/,diabetes,B,ro,31K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, 10+ posts/day"
+3180696158901167,Grupul diabeticilor,https://www.facebook.com/groups/3180696158901167/,diabetes,B,ro,23K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 20+ posts/day"
+5752663878098335,EU și DIABETUL MEU,https://www.facebook.com/groups/5752663878098335/,diabetes,B,ro,21K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 4 posts/day"
+1038265311006797,grupul diabetici și prediabet,https://www.facebook.com/groups/1038265311006797/,diabetes,C,ro,8.6K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 3 posts/day"
+1668283820468515,"Diabet zaharat tip 1 - rețete de mâncare, sfaturi, informații utile",https://www.facebook.com/groups/1668283820468515/,diabetes,C,ro,1.1K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, recipe-leaning"
+lifewithdiabetestogether,Життя з Діабетом Разом,https://www.facebook.com/groups/lifewithdiabetestogether/,diabetes,B,uk,575,UNVERIFIED - read the group rules before the first post,uncontacted,Public. Small but Ukrainian-language and three of the account holder connections are members
+864476580423363,БФ Допомоги і реабілітації хворих на цукровий діабет,https://www.facebook.com/groups/864476580423363/,diabetes,C,uk,295,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, charity foundation. Partnership angle rather than a post"
+336801236460442,Диабет 1го типа,https://www.facebook.com/groups/336801236460442/,diabetes,A,ru,8.3K,UNVERIFIED - read the group rules before the first post,uncontacted,Private. Largest Russian-language T1D-specific group found
+1602098810109635,Диабет,https://www.facebook.com/groups/1602098810109635/,diabetes,B,ru,12K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, 7 posts/day"
+lifeinthetargetrange,Сахарный диабет 1 типа: Жизнь в Целевом Диапазоне,https://www.facebook.com/groups/lifeinthetargetrange/,diabetes,B,ru,245,UNVERIFIED - read the group rules before the first post,uncontacted,"Public. Small, but the name is literally time-in-range - the most on-topic Russian-language framing found"
+1810733815850196,Здоровое питание при сахарном диабете и не только,https://www.facebook.com/groups/1810733815850196/,diabetes,C,ru,14K,UNVERIFIED - read the group rules before the first post,uncontacted,"Public, nutrition-focused"
+879631353592542,Вкусные рецепты для диабетиков,https://www.facebook.com/groups/879631353592542/,diabetes,D,ru,67K,UNVERIFIED - read the group rules before the first post,uncontacted,"Private, recipes only. Off-topic - do not post"

@@ -22,6 +22,8 @@ The same applies to external identifiers. Discover Google Drive folders by title
 - `registry/facebook-groups-catalogue.csv` — research inbox for Facebook (not a destination list)
 - `registry/linkedin-groups-catalogue.csv` — research inbox for LinkedIn groups (not a destination list)
 - `registry/telegram-groups-catalogue.csv` — durable inventory of Telegram memberships, linked discussion chats, rules and prior project posts (not a destination list)
+- `registry/linkedin-people-catalogue.csv` — LinkedIn company pages, foundations and named individuals to contact (not a destination list; nothing here is postable through any API)
+- `registry/media-catalogue.csv` — TikTok/YouTube creators, podcasts, blogs and newsletters to pitch (not a destination list; every row carries one concrete ask)
 - `registry/pillars.csv` — long-form canonical assets
 - `registry/derivatives.csv` — platform-native posts made from a pillar
 - `registry/shares.csv` — one row per post actually sent, with outcome
