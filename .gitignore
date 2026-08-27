@@ -9,6 +9,11 @@ __pycache__/
 .venv/
 venv/
 
+# Secrets
+.env
+keys/*
+!keys/.gitignore
+
 # OS noise
 .DS_Store
 Thumbs.db

@@ -50,7 +50,24 @@ Per-platform constraints. One row per platform; `destinations.platform` referenc
 | `hashtags` | How many, and whether they help. Varies enormously — 3-4 drive real discovery on Bluesky; stuffing them on Facebook restricts your reach. |
 | `link_behaviour` | What actually happens to reach when a post contains a link. Much folklore here; this column holds only what a platform's own documentation says. |
 | `automation` | What can genuinely be automated. Respect it. |
+| `scheduling` | Native scheduler, third-party only, or none. Group composers often have no clock icon even when the platform's feed composer does. |
+| `weekend_ok` | Whether weekend posts are worth sending. LinkedIn drops 40-60% on weekends; most other platforms are fine. |
 | `key_rule_to_remember` | The one thing that will bite you. |
+
+---
+
+## Research catalogues
+
+Three CSVs sit next to the destination list and are **not** destination lists.
+Nothing in them is selectable for a draft. Only a `destinations.csv` row with
+`status=active` may be posted to. Promote a catalogue row after the rule is
+quoted and the writable id is known. Column definitions and the inventory
+method live in the matching `registry/*-catalogue.README.md`.
+
+- `facebook-groups-catalogue.csv` — Facebook group research inbox
+- `linkedin-groups-catalogue.csv` — LinkedIn group research inbox
+- `telegram-groups-catalogue.csv` — Telegram memberships, linked
+  channel/discussion pairs, rejected rooms, and prior project posts
 
 ---
 

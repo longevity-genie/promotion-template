@@ -33,6 +33,9 @@ SHEETS = [
     ("destinations", "destinations.csv"),
     ("shares", "shares.csv"),
     ("platform_rules", "platform_rules.csv"),
+    ("cat_telegram_groups", "telegram-groups-catalogue.csv"),
+    ("cat_linkedin_groups", "linkedin-groups-catalogue.csv"),
+    ("cat_facebook_groups", "facebook-groups-catalogue.csv"),
 ]
 
 HEADER_FILL = PatternFill("solid", fgColor="1F3350")
