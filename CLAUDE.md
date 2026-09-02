@@ -24,6 +24,8 @@ The same applies to external identifiers. Discover Google Drive folders by title
 - `registry/telegram-groups-catalogue.csv` — durable inventory of Telegram memberships, linked discussion chats, rules and prior project posts (not a destination list)
 - `registry/linkedin-people-catalogue.csv` — LinkedIn company pages, foundations and named individuals to contact (not a destination list; nothing here is postable through any API)
 - `registry/media-catalogue.csv` — TikTok/YouTube creators, podcasts, blogs and newsletters to pitch (not a destination list; every row carries one concrete ask)
+- `registry/cgm-manufacturers-catalogue.csv` — CGM makers to approach for sensors, API access and validation partnerships (not an audience; every row carries a named mailbox and one ask)
+- `registry/japan-contacts-catalogue.csv` — Japanese organisations, researchers, companies, media and patient communities for the DWIH Deep Tech Launchpad Japan 2026 trip (not a destination list; partnership and recruitment contacts for the November visit)
 - `registry/pillars.csv` — long-form canonical assets
 - `registry/derivatives.csv` — platform-native posts made from a pillar
 - `registry/shares.csv` — one row per post actually sent, with outcome
@@ -114,7 +116,27 @@ uv run --no-project python scripts/sync_tracker.py             # write
 Credentials, both gitignored and never committed:
 
 - `keys/service.json` — Google service account with edit rights on the sheet
-- `.env` — `TRACKER_SHEET_ID` (or `TRACKER_SHEET_TITLE`) and one `*_BUFFER_API_KEY` per Buffer account. On this branch the copied id is the enhancement.bio sheet; do not run a write sync until it is a Sugar-Sugar sheet.
+- `.env` — `TRACKER_SHEET_ID` (or `TRACKER_SHEET_TITLE`) and one `*_BUFFER_API_KEY` per Buffer account. As of 2026-08-27 `TRACKER_SHEET_ID` points at the Sugar-Sugar sheet ("Sugar-Sugar promotion registry", in the "sugar-sugar promotion" Drive folder), shared with the service account as writer. It is safe to write-sync.
+
+**Run this branch's sync with `--no-buffer` until a Sugar-Sugar Buffer account exists.** The `*_BUFFER_API_KEY` values in `.env` were copied from enhancement-bio, so a full run would pull that project's queue into this sheet and reconcile it against this branch's empty `shares.csv`, flagging every enhancement.bio post as "NO - not logged". The flag skips Buffer entirely and syncs only the registry CSVs:
+
+```
+uv run --no-project python scripts/sync_tracker.py --no-buffer
+```
+
+`sync_tracker.py` needs `google-auth` and `google-api-python-client`. If the environment cannot reach PyPI, the sync has to run somewhere that can - the script only needs `registry/*.csv`, `keys/service.json` and `TRACKER_SHEET_ID`.
+
+`TRACKER_TABS` in `.env` narrows the sheet to the tabs a branch actually wants — one tab per kind of thing you act on, no bookkeeping tabs. It lives in `.env` because it is a per-branch choice and this script is shared with `main` and `enhancement-bio`. Unset means every tab, the original behaviour. On the `sugar` branch it is set to the rooms-to-post and people-to-contact tables only.
+
+After narrowing it, `--prune` deletes the tabs a previous run left behind:
+
+```
+uv run --no-project python scripts/sync_tracker.py --no-buffer --prune
+uv run --no-project python scripts/style_tracker.py
+```
+
+`--prune` refuses to run if it would empty the document, which is what happens when a `TRACKER_TABS` name does not match any tab this run builds.
+
 
 The script discovers accounts by scanning `.env` for `*_BUFFER_API_KEY`, so
 adding a Buffer account is a one-line change with no code edit.

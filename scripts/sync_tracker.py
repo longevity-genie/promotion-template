@@ -60,6 +60,10 @@ CSV_TABS = [
     ("cat_telegram_groups", "telegram-groups-catalogue.csv"),
     ("cat_linkedin_groups", "linkedin-groups-catalogue.csv"),
     ("cat_facebook_groups", "facebook-groups-catalogue.csv"),
+    ("cat_linkedin_people", "linkedin-people-catalogue.csv"),
+    ("cat_media_creators", "media-catalogue.csv"),
+    ("cat_diabetes_orgs", "diabetes-orgs-catalogue.csv"),
+    ("cat_japan_contacts", "japan-contacts-catalogue.csv"),
 ]
 
 # Google rejects a cell over 50k characters, and a full post body can approach
@@ -376,14 +380,33 @@ def open_spreadsheet(creds, env: dict[str, str]) -> str:
     return found[0]["id"]
 
 
-def sync(sheet_id: str, creds, tabs: list[tuple[str, list[list]]]) -> list[str]:
-    """Create missing tabs, then replace the contents of each one."""
+def sync(sheet_id: str, creds, tabs: list[tuple[str, list[list]]],
+         prune: bool = False) -> list[str]:
+    """Create missing tabs, then replace the contents of each one.
+
+    With prune=True, any tab in the document that this run does not write is
+    deleted. Google refuses to delete the last remaining sheet, so a run that
+    would empty the document is refused here instead, with a clearer message.
+    """
     from googleapiclient.discovery import build
 
     svc = build("sheets", "v4", credentials=creds, cache_discovery=False).spreadsheets()
     meta = svc.get(spreadsheetId=sheet_id).execute()
     existing = {s["properties"]["title"]: s["properties"]["sheetId"]
                 for s in meta["sheets"]}
+
+    if prune:
+        doomed = [t for t in existing if t not in {n for n, _ in tabs}]
+        if doomed and len(doomed) < len(existing):
+            svc.batchUpdate(spreadsheetId=sheet_id, body={"requests": [
+                {"deleteSheet": {"sheetId": existing[t]}} for t in doomed]}).execute()
+            print("pruned: " + ", ".join(sorted(doomed)))
+            meta = svc.get(spreadsheetId=sheet_id).execute()
+            existing = {sh["properties"]["title"]: sh["properties"]["sheetId"]
+                        for sh in meta["sheets"]}
+        elif doomed:
+            sys.exit("--prune would delete every tab in the document; refusing. "
+                     "Check TRACKER_TABS in .env against the tab names this run builds.")
 
     adds = [{"addSheet": {"properties": {"title": name}}}
             for name, _ in tabs if name not in existing]
@@ -433,6 +456,16 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true",
                     help="collect everything and report, but do not touch Sheets")
+    ap.add_argument("--prune", action="store_true",
+                    help="delete tabs in the sheet that this run does not write. "
+                         "Use after narrowing TRACKER_TABS, to clear out tabs a "
+                         "previous run left behind")
+    ap.add_argument("--no-buffer", action="store_true",
+                    help="skip Buffer entirely; sync only the registry CSVs. Use "
+                         "this while the *_BUFFER_API_KEY values in .env belong to "
+                         "a different project than the sheet, so its queue does not "
+                         "land in this sheet and get reconciled against the wrong "
+                         "shares.csv")
     args = ap.parse_args()
 
     env = load_env()
@@ -447,14 +480,29 @@ def main() -> int:
             continue
         tabs.append((tab_name, read_csv_rows(path)))
 
-    channel_rows, post_rows, buf_notes = collect_buffer(env)
-    notes += buf_notes
-    notes += reconcile(post_rows)
+    # TRACKER_TABS in .env narrows the sheet to the tabs a branch actually
+    # wants. Unset means every tab, which is the original behaviour. It lives
+    # in .env rather than in this file because it is a per-branch choice, and
+    # this script is shared with main and enhancement-bio.
+    wanted = [t.strip() for t in env.get("TRACKER_TABS", "").split(",") if t.strip()]
+    keep = (lambda name: True) if not wanted else (lambda name: name in wanted)
+    if wanted:
+        tabs = [(n, r) for n, r in tabs if keep(n)]
 
-    tabs.append(("buffer_channels", [[
+    if args.no_buffer:
+        channel_rows, post_rows = [], []
+        notes.append('Buffer skipped (--no-buffer): no Buffer tabs written and '
+                     'no reconciliation against shares.csv was attempted')
+    else:
+        channel_rows, post_rows, buf_notes = collect_buffer(env)
+        notes += buf_notes
+        notes += reconcile(post_rows)
+
+    if not args.no_buffer and keep("buffer_channels"):
+        tabs.append(("buffer_channels", [[
         "account", "account_email", "organization", "channel_id", "channel",
-        "service", "type", "disconnected", "timezone", "posting_schedule",
-    ]] + channel_rows))
+            "service", "type", "disconnected", "timezone", "posting_schedule",
+        ]] + channel_rows))
 
     # Built in one order for readability above, presented in another: the
     # reconciliation verdict and the status lead, because those are what you
@@ -467,18 +515,21 @@ def main() -> int:
              "channel", "account", "tags", "external_link", "text",
              "post_id", "channel_id", "account_email"]
     order = [built.index(c) for c in shown]
-    tabs.append(("buffer_queue",
-                 [shown] + [[r[i] for i in order] for r in post_rows]))
+    if not args.no_buffer and keep("buffer_queue"):
+        tabs.append(("buffer_queue",
+                     [shown] + [[r[i] for i in order] for r in post_rows]))
 
     summary = [["key", "value"], ["last_synced", stamp]]
     for name, rows in tabs:
         summary.append([f"rows_{name}", str(max(len(rows) - 1, 0))])
-    summary.append(["buffer_accounts", str(len(buffer_accounts(env)))])
+    summary.append(["buffer_accounts",
+                    "skipped" if args.no_buffer else str(len(buffer_accounts(env)))])
     for i, note in enumerate(notes, 1):
         summary.append([f"note_{i}", note])
     if not notes:
         summary.append(["note_1", "clean run - nothing to flag"])
-    tabs.insert(0, ("sync_status", summary))
+    if keep("sync_status"):
+        tabs.insert(0, ("sync_status", summary))
 
     if args.dry_run:
         for name, rows in tabs:
@@ -497,7 +548,7 @@ def main() -> int:
         scopes=[SHEETS_SCOPE, "https://www.googleapis.com/auth/drive.readonly"],
     )
     sheet_id = open_spreadsheet(creds, env)
-    for line in sync(sheet_id, creds, tabs):
+    for line in sync(sheet_id, creds, tabs, prune=args.prune):
         print(line)
     for note in notes:
         print(f"  ! {note}")
