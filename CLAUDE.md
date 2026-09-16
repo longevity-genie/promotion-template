@@ -26,6 +26,7 @@ The same applies to external identifiers. Discover Google Drive folders by title
 - `registry/media-catalogue.csv` — TikTok/YouTube creators, podcasts, blogs and newsletters to pitch (not a destination list; every row carries one concrete ask)
 - `registry/cgm-manufacturers-catalogue.csv` — CGM makers to approach for sensors, API access and validation partnerships (not an audience; every row carries a named mailbox and one ask)
 - `registry/japan-contacts-catalogue.csv` — Japanese organisations, researchers, companies, media and patient communities for the DWIH Deep Tech Launchpad Japan 2026 trip (not a destination list; partnership and recruitment contacts for the November visit)
+- `registry/workshop-venues-catalogue.csv` — rooms where Livia can run a Sugar-Sugar play session in person and hand out the 3D-printed souvenirs: Romanian medical schools, student congresses, diabetes patient organisations, AI events and science festivals (not a destination list; every row is an invitation to ask for)
 - `registry/pillars.csv` — long-form canonical assets
 - `registry/derivatives.csv` — platform-native posts made from a pillar
 - `registry/shares.csv` — one row per post actually sent, with outcome

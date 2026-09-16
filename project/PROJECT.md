@@ -118,6 +118,7 @@ See [goals.md](goals.md) for the full list with metrics. In short: make people p
 - Site-wide Open Graph card at `/assets/og-card.png` (1200x630)
 - Per-result share cards at `/share/<id>/image.png` after a finished game
 - Study protocol and consent text in the sugar-sugar repo
+- 3D-printed Sugar-Sugar souvenirs, printed on the team's own printer. Livia gave one to everyone who played at a conference workshop; a stock of them is still on hand. This is the in-person format the rooms in `registry/workshop-venues-catalogue.csv` are for
 - NEEDED: a fresh desktop screenshot of a drawn prediction vs the real line
 - NEEDED: a mobile screenshot of the same moment
 - NEEDED: one finished share-card PNG from a real or staging playthrough (use `uv run share` on staging, never invent scores)

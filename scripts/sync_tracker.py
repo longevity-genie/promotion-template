@@ -64,6 +64,7 @@ CSV_TABS = [
     ("cat_media_creators", "media-catalogue.csv"),
     ("cat_diabetes_orgs", "diabetes-orgs-catalogue.csv"),
     ("cat_japan_contacts", "japan-contacts-catalogue.csv"),
+    ("cat_workshop_venues", "workshop-venues-catalogue.csv"),
 ]
 
 # Google rejects a cell over 50k characters, and a full post body can approach
